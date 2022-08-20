@@ -1,8 +1,7 @@
 # Requirements
 
 ## Required Extensions
-
+1. [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
 
 ## Generating HTML Boilerplatte in VS Code
-
 >> Type 'html5-boilerplate' in the HTML file and select the snippet from the auto suggestion dropdown
