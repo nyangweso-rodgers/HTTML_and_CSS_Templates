@@ -2,40 +2,33 @@
 
 ## Introduction to CSS
 - [Overview of CSS]()
-    - [Type CSS Selectors](#Type-CSS-Selectors)
-        - [ID Selectors](#ID-Selectors)
-        - [Class Selectors](#Class-Selectors)
-        - [Descendant Selectors](#Descendant-Selectors)
+- [CSS Selectors](#CSS-Selectors)
+- [CSS Units](#CSS-Units)
+
 - [Introduction to CSS3](#Introduction-to-CSS3)
-
-
 
 # Overview of CSS
 
-# Type CSS Selectors
-are the most common and easy to undersatnd selectors. This selector targets element types on the page.
-* to target all the paragraphs on the page
-```css
-    p {
-	color: red;
-	font-size: 130%;
-    };
-```
-# ID Selectors
-__id selectors__ allow you to style an HTML element that has an id attribute, regardless of their position in the document tree. to select an element with a specific ID, use a hash character, and follow it with the id of the element.
+# CSS Selectors
+Selector | Description | Example
+|---------------|-------------------|--------------|
+Type CSS Selectors | are the most common and easy to undersatnd selectors. This selector targets element types on the page. | p {} - target all the paragraphs on the page
+ID Selectors | allow you to style an HTML element that has an id attribute, regardless of their position in the document tree. | #id-selector {}
+Class Selectors | work in a similar way as __ID Selectors__ the major difference is that _ID's can only be applied once per page_, while _class selectors can be used as many times on a page as needed_ | .class-selector {}
+Descendant Selectors | these selectors are used to select elements that are descendants of another element. when selecting levels, you can select as many levels deep as you need to. #intro .first em {}
 
-# Class Selectors
-__class selectors__ work in a similar way as __ID Selectors__ the major difference is that _ID's can only be applied once per page_, while _class selectors can be used as many times on a page as needed_. to select elements with specific class, use a period character followed by the name of the class.
-
-# Descendant Selectors
-these selectors are used to select elements that are descendants of another element. when selecting levels, you can select as many levels deep as you need to.
-```css
-    /* to target only <em> elements of the first paragraph of the 'intro' section;*/
-    #intro .first em {
-	color: pink;
-	background-color: grey;
-    }
-```
+# CSS Units
+Unit | Description
+|---------------------- | -------------------- |
+px | Absolute value pixel
+rem | relative to the font size of the root element
+em | Relative to the font size of the element
+vh | Relative to 1% of the viewport's height
+vw | Relative to 1% of the viewport's width
+% | Relative to 1% of the parent element
+vmin | Relative to the viewport's smaller dimension, 1vmin = max(1vh, 1vw)
+vmax | Relative to the viewport's larger dimension, vmax = max(1vh, 1vw)
+ch | Relative to the width of the glyph "O" of the element's font
 
 # Introduction to CSS3
 __CSS3__  is the latest standard of __CSS__. Significant Features are:
