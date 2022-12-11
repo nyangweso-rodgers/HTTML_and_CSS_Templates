@@ -5,3 +5,39 @@
 
 ## Generating HTML Boilerplatte in VS Code
 >> Type 'html5-boilerplate' in the HTML file and select the snippet from the auto suggestion dropdown
+
+# CSS Color Palette
+## Palette 1
+    - #332941
+    - #3B3486
+    - #7743DB
+    - #FFE9B1
+    - #FFFFFF
+
+## Palette 2
+    - #404258
+    - #2474E68
+    - #6B728E
+    - #71D5F4
+    - #FFFFFF
+
+## Palette 3
+    - #252525
+    - #494D58
+    - #70828A
+    - #F25E3E
+    - #FFFFFF
+    
+## Palette 4
+    - #2C3333
+    - #5A5F63
+    - #828F93
+    - #E29147
+    - #FFFFFF
+
+## Palette 5
+    - #OA1931
+    - #26344B
+    - #185ADB
+    - #FFC947
+    - #FFFFFF
