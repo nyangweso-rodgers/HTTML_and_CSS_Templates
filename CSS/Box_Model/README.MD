@@ -15,3 +15,5 @@
 4. __Content box__: innermost part of the __box model__. it's where the HTML element's content appears.
 5. __width__: defines the width of an HTML element
 6. __height__: defines the height of an HTML element.
+
+* _Remark_: Total element height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
