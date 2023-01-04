@@ -2,8 +2,12 @@
 
 ## Introduction to CSS
 - [Overview of CSS]()
+
 - [CSS Selectors](#CSS-Selectors)
+
 - [CSS Units](#CSS-Units)
+    - [Absolute Units](#Absolute-Units)
+    - [Relative Units](#Relative-Units)
 
 - [Introduction to CSS3](#Introduction-to-CSS3)
 
@@ -18,9 +22,23 @@ Class Selectors | work in a similar way as __ID Selectors__ the major difference
 Descendant Selectors | these selectors are used to select elements that are descendants of another element. when selecting levels, you can select as many levels deep as you need to. #intro .first em {}
 
 # CSS Units
+* __CSS Unit__ determines the size of a property you are setting for an element of its content.
+# Absolute Units
+* Units that are "__absolute__" are the same size regardless of the parent element or window size.
+
 Unit | Description
 |---------------------- | -------------------- |
-px | Absolute value pixel
+px | 1px = 1/96th of 1 inch (96px = 1 inch)
+pt | 1pt = 1/72th of 1 inch
+mm | 1mm = 1/10th of 1cm
+cm | Centimeters
+pc | 12pt = 1pc
+in | inches
+
+# Relative Units
+* __Relative units__ are useful for styling responsive sites because they scale relative to the parent or window size (depending upon the unit)
+Unit | Description
+|---------------------- | -------------------- |
 rem | relative to the font size of the root element
 em | Relative to the font size of the element
 vh | Relative to 1% of the viewport's height
@@ -29,6 +47,7 @@ vw | Relative to 1% of the viewport's width
 vmin | Relative to the viewport's smaller dimension, 1vmin = max(1vh, 1vw)
 vmax | Relative to the viewport's larger dimension, vmax = max(1vh, 1vw)
 ch | Relative to the width of the glyph "O" of the element's font
+
 
 # Introduction to CSS3
 __CSS3__  is the latest standard of __CSS__. Significant Features are:
