@@ -10,9 +10,36 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div>
+        <header>
+            <h1>CSS Box Model</h1>
+        </header>
+        <section>
+            <div>
+                <ul>
+                    <li><b>CSS Margins</b>: properties are used to create space around elements, outside of any defined borders.</li>
+                    <li><b>CSS Padding</b>: used to create space around an element's content, inside of any defined borders.</li>
+                    <li><b>CSS Height</b>: used to set the height of an element</li>
+                    <li><b>CSS Width</b>: used to set the width of an element</li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <h2>Example: CSS Box Model</h2>
+        <div class="first-div">
             <h4>Example: A div Element's Box Model Demonstration</h4>
         </div>
+        </section>
+        <hr>
+        <section>
+            <h2>Setting max-width</h2>
+            <p>Using the <b>max-width</b> improve the browser's handling of small windows.</p>
+            <p><b>Note:</b> If you for some reason use both the <b>width</b> property and the <b>max-width</b> property on the same element, and the value of the <b>width</b> property is larger than the <b>max-width</b> property; the <b>max-width</b> property will be used (and the <b>width</b> property will be ignored)</p>
+            <div class="setting-max-width">
+                This div has element has a height of 100px and a <b>max-width</b> of 500px
+            </div>
+            <p>Resize the browser window to see the effect.</p>
+        </section>
         <script src="" async defer></script>
     </body>
 </html>
