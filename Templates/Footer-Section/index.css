@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#menu {
+    background: rgb(179,195,222);
+    height: 700px;
+}
+#footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0.1px rgba(255, 255, 255, 0.3);
+    height: 270px;
+    /*bottom: 0;*/
+    width: 100%;
+    /*height: 6.5rem; /* Footer Height*/
+    /*margin-top: 400px;*/
+    position: static;
+}
+
+.copyright {
+    padding-top: 30px;
+    padding-left: 130px;
+}
