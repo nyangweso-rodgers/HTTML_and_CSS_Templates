@@ -15,6 +15,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    justify-content: center;
 }
 .column {
     flex: 25%;
