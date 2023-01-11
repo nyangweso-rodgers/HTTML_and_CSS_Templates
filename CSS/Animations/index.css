@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+#div1 {
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    animation: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite; /*animation will run forever*/
+}
+
+@keyframes example {
+    0% {background-color: red;}
+    25% {background-color: yellow;}
+    50% {background-color: blue;}
+    100% {background-color: green;}
+    
+}
+#div2 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    animation: example2;
+    animation-duration: 4s;
+    /*2 seconds delay before starting the animation:*/
+    animation-delay: 2s;
+    /*run the animation 3 times before it stops:*/
+    animation-iteration-count: 3;
+    animation-direction: reverse;
+    animation-timing-function: ease-out;
+}
+
+@keyframes example2 {
+    0% {background-color: red; left: 0px; top: 0px;}
+    25% {background-color: yellow; left: 200px; top: 0px;}
+    50% {background-color: blue; left: 200px; top: 200px;}
+    75% {background-color: green; left: 0px; top: 200px;}
+    100% {background-color: red; left: 0px; top: 0px;}
+}
