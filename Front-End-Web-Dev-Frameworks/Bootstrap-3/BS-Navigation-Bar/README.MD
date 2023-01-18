@@ -1,10 +1,23 @@
 # Navigation Bar
 
+
+## Table Of Contents
+- [Further Reading]()
+    - [Navbar](https://getbootstrap.com/docs/4.0/components/navbar/)
+
+# Overview Of Navigation Bar
 * __Navigation bar__ (also referred to as a navbar) is a header at the top of the page to display navigational information.
 
 # How To Use
 * To use Bootstrap Navigation Bars you add a __< nav >__ element to the top inside the < body > element of your webpage. There are various styles you can add to customize the display of your navbars.
 
+# Navbar Sub-Components 
+* __.navbar-brand__: for your company, product, or project name.
+* __.navbar-nav__: for a full-height and lightweight navigation (including support for dropdowns).
+* __.navbar-toggler__: for use with our collapse plugin and other navigation toggling behaviors.
+* __.form-inline__: for any form controls and actions.
+* __.navbar-text__: for adding vertically centered strings of text.
+* __.collapse.navbar-collapse__: for grouping and hiding navbar contents by a parent breakpoint.
 # Navbar Styles
 * Bootstrap provides a set of classes in the Bootstrap framework to style your navbars. These classes are as followed:
     - __navbar navbar-default__: This is the default style for your navbars.
