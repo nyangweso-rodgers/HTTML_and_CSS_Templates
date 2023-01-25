@@ -18,5 +18,6 @@
         "titleBar.inactiveBackground": "#ff3d0099",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#ff3d00"
+    "peacock.color": "#ff3d00",
+    "livePreview.defaultPreviewPath": "c:\\Users\\HP\\Downloads\\Working_Enviroment\\HTML_and_CSS_Templates\\Front-End-Web-Dev-Frameworks\\Bootstrap-3\\BS-Buttons\\index.html"
 }
