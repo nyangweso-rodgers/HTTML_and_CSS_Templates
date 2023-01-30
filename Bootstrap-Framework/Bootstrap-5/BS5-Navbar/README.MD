@@ -11,7 +11,11 @@
 
 * To add links inside the navbar, use either an <ul> element (or a <div>) with class="navbar-nav". Then add <li> elements with a __.nav-item__ class followed by an < a > element with a __.nav-link__ class:
 
-# Colored Navbar
+# Text Color of Navigation Bar
+* __navbar-light__: This class will set the color of the text to dark. This is used when using a light background color.
+* __navbar-dark__: This class will set the color of the text to light. This is used when using a dark background color.
+
+# Background Color
 * Use any of the __.bg-color__ classes to change the background color of the navbar:
     - .bg-primary, 
     - .bg-success, 
