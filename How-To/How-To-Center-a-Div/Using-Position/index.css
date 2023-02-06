@@ -1,0 +1,12 @@
+.parent {
+    border: 2px dotted yellow;
+    padding: 10px;
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

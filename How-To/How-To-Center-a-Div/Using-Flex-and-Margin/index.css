@@ -1,0 +1,8 @@
+.parent {
+    border: 3px dotted beige;
+    display: flex;
+}
+
+.child {
+    margin: auto;
+}
