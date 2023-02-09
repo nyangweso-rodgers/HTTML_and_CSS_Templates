@@ -20,3 +20,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 ```
+
+# Sample Web Layout Templates
+1. [W3 Schools - BS Theme "Company"](https://www.w3schools.com/bootstrap/trybs_theme_company_full.htm#myPage)
+2. [W3 Schools - BS Theme "The Band"](https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp)
