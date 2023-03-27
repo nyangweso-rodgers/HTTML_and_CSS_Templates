@@ -22,6 +22,7 @@
 * Use a separate branch for each feature or issue you work on. After creating a branch, check it out locally so that any changes you make will be on that branch.
 
     ```sh
+        git rwd-features
         git checkout -b html5
         git checkout -b css3
     ```
