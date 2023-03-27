@@ -1,1 +1,0 @@
-# Responsive Four Column Layout
