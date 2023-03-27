@@ -18,3 +18,5 @@
 
 * [BuiltWith - Web Technology Profiler](https://builtwith.com/): Enter the website there, frameworks, technologies, ad-platforms everything will be displayed.
 
+# HTML Boilerplates in VSCode
+* Type '__html5-boilerplate__' in the HTML file and select the snippet from the auto suggestion dropdown
