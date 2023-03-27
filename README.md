@@ -25,6 +25,8 @@
         git checkout -b feature-rwd 
         git checkout -b features-html5
         git checkout -b features-css3
+        git checkout -b feature-tailwind-css
+        git checkout -b feature-bs5
     ```
 
 # Step 3: Update, add, commit, and push changes
