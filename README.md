@@ -22,9 +22,9 @@
 * Use a separate branch for each feature or issue you work on. After creating a branch, check it out locally so that any changes you make will be on that branch.
 
     ```sh
-        git rwd-features
-        git checkout -b html5
-        git checkout -b css3
+        git checkout -b feature-rwd 
+        git checkout -b features-html5
+        git checkout -b features-css3
     ```
 
 # Step 3: Update, add, commit, and push changes
