@@ -1,0 +1,8 @@
+.parent {
+    border: 2px dotted yellowgreen;
+    display: grid;
+}
+
+.child {
+    margin: auto;
+}
