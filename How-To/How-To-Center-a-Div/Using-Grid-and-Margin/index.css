@@ -1,9 +1,0 @@
-
-.parent {
-    border: 2px solid green;
-    display: grid;
-}
-
-.child {
-    margin: auto;
-}
