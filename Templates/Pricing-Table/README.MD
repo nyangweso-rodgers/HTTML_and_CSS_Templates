@@ -1,3 +1,0 @@
-# Pricing Table
-
-# Description
