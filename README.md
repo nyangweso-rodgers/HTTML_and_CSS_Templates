@@ -2,17 +2,20 @@
 
 ## Table of Contents
 
-# Best Color Websites for Front-End Developers
-1. [Color Hunt](https://colorhunt.co/)
-2. [Grabient](https://www.grabient.com/)
-3. [Gradient Hunt](https://gradienthunt.com/)
-4. [ColorKit](https://colorkit.co/palette/809bce-95b8d1-b8e0d4-d6eadf-eac4d5/)
-5. [Khroma](https://www.khroma.co/train)
 
-# Platforms Used to Know Frameworks Webiste is built on
-* [Wappalyzer](https://www.wappalyzer.com/) - Find out the technology stack of any website. Create lists of websites that use certain technologies, with company and contact details. Use our tools for lead generation, market analysis and competitor research.
+# Bootstrap 5 CDN
+```html
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+```
 
-* [BuiltWith - Web Technology Profiler](https://builtwith.com/): Enter the website there, frameworks, technologies, ad-platforms everything will be displayed.
+# Font Awesome 5 Icons
+* To use the Free Font Awesome 5 icons, go to [fontawesome.com](https://fontawesome.com/) and sign in to get a code to use in your web pages.
 
-# HTML Boilerplates in VSCode
-* Type '__html5-boilerplate__' in the HTML file and select the snippet from the auto suggestion dropdown
+    ```html
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    ```
+* Replace yourcode with the code from fontawesome
