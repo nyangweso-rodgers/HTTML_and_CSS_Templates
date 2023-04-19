@@ -1,6 +1,10 @@
 # HTML & CSS
 
 ## Table of Contents
+- [HTML \& CSS](#html--css)
+  - [Table of Contents](#table-of-contents)
+- [Best Color Websites for Front-End Developers](#best-color-websites-for-front-end-developers)
+- [Platforms Used to Know Frameworks Webiste is built on](#platforms-used-to-know-frameworks-webiste-is-built-on)
 
 # Best Color Websites for Front-End Developers
 1. [Color Hunt](https://colorhunt.co/)
@@ -13,6 +17,3 @@
 * [Wappalyzer](https://www.wappalyzer.com/) - Find out the technology stack of any website. Create lists of websites that use certain technologies, with company and contact details. Use our tools for lead generation, market analysis and competitor research.
 
 * [BuiltWith - Web Technology Profiler](https://builtwith.com/): Enter the website there, frameworks, technologies, ad-platforms everything will be displayed.
-
-# HTML Boilerplates in VSCode
-* Type '__html5-boilerplate__' in the HTML file and select the snippet from the auto suggestion dropdown
