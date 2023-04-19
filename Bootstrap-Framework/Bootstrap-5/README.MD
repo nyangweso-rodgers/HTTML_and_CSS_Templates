@@ -1,10 +1,10 @@
 # Bootstrap 5
 
 ## Table Of Contents
-- [Overview Of Bootstrap 5](#Overview-Of-Bootstrap-5)
-
-- [Further Reading]()
-    - [w3 Schools - Bootstrap 5 Get Started](https://www.w3schools.com/bootstrap5/bootstrap_get_started.php)
+- [Bootstrap 5](#bootstrap-5)
+  - [Table Of Contents](#table-of-contents)
+- [Overview Of Bootstrap 5](#overview-of-bootstrap-5)
+- [Bootstrap 5 CDN](#bootstrap-5-cdn)
 
 # Overview Of Bootstrap 5
 * [Bootstrap 5](https://www.w3schools.com/bootstrap5/index.php) (released in 2021) is the newest version of [Bootstrap](https://www.w3schools.com/bootstrap/default.asp) (released in 2013); with new components, faster stylesheets, more responsiveness etc. It supports the latest, stable releases of all major browsers and platforms. However, Internet Explorer 11 and down is not supported.
@@ -20,7 +20,3 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 ```
-
-# Sample Web Layout Templates
-1. [W3 Schools - BS Theme "Company"](https://www.w3schools.com/bootstrap/trybs_theme_company_full.htm#myPage)
-2. [W3 Schools - BS Theme "The Band"](https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp)
