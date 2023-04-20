@@ -1,10 +1,6 @@
-
-<<<<<<< HEAD
-
-## Table Of Contents
-=======
+# Frontend Web Applications (HTML, CSS, Bootstrap & JavaScript)
 ## Table of Contents
-- [HTML \& CSS](#html--css)
+- [Frontend Web Applications (HTML, CSS, Bootstrap \& JavaScript)](#frontend-web-applications-html-css-bootstrap--javascript)
   - [Table of Contents](#table-of-contents)
 - [Best Color Websites for Front-End Developers](#best-color-websites-for-front-end-developers)
 - [Platforms Used to Know Frameworks Webiste is built on](#platforms-used-to-know-frameworks-webiste-is-built-on)
@@ -41,4 +37,3 @@
 4. [FreeLogoDesign](https://t.co/jBLnwmg1wd)
 5. [Ucraft](https://www.ucraft.com/)
 6. [Looka](https://looka.com/)
->>>>>>> main
