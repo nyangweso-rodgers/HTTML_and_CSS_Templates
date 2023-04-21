@@ -1,15 +1,7 @@
-# HTML
+# HTML5
 
 ## Table of Contents
 - [Overview of HTML](#Overview-of-HTML)
-
-- [Inline Elements](#Inline-Elements)
-
-- [Semantic HTML](#Semantic-HTML)
-    - [Benefits of using Semantic HTML](#Benefits-of-using-Semantic-HTML)
-
-- [Further Reading]()
-    - []()
 
 # Overview of HTML
 ```html
