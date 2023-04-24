@@ -1,0 +1,18 @@
+* {
+    font-family: cursive;
+}
+.first-div {
+    margin: 50px;
+    border: 20px solid purple;
+    padding: 10px;
+    background-color: orange;
+    width: 500px;
+    height: 50px;
+}
+
+.setting-max-width {
+    max-width: 500px;
+    height: 30px;
+    background-color: powderblue;
+    padding: 50px;
+}

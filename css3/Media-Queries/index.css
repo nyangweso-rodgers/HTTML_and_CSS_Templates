@@ -1,0 +1,60 @@
+body {
+    background-color: tan;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 25%;
+  padding: 20px;
+  border: 2px dotted purple;
+}
+div.example1{
+  background-color: yellow;
+  padding: 20px;
+}
+
+div.example2 {
+  background-color: lightgrey;
+  padding: 20px;
+}
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+      color: white;
+    }
+  }
+
+  /* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+      color: white;
+    }
+  }
+
+/* On Screens that are 600px or less, hide the div element*/
+@media screen and (max-width: 600px) {
+    div.example1 {
+      display: none;
+    }
+
+    div.example2 {
+      font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    div.example2 {
+      font-size: 80px;
+    }
+}

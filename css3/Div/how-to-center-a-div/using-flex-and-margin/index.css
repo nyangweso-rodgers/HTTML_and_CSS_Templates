@@ -1,0 +1,8 @@
+.parent {
+    border: 2px double darkblue;
+    display: flex;
+}
+
+.child {
+    margin: auto;
+}

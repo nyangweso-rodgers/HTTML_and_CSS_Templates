@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+#linear-grad {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red, yellow);
+    text-align: center;
+}
+
+#linear-grad2 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red, yellow);
+    text-align: center;
+}
+
+#linear-grad3 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, red, yellow);
+    text-align: center;
+}

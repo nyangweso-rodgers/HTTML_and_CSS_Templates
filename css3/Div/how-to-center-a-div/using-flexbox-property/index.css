@@ -1,0 +1,8 @@
+.parent {
+    border: 2px double yellowgreen;
+    padding: 10px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
