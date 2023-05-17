@@ -21,3 +21,14 @@ display: block;
 .carousel-item.active {
 transform: translateX(0);
 }
+
+/*
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 1;
+}
+
+.carousel-item .row {
+  padding: 0 200px; /* Adjust the padding as needed */
+}
+*/

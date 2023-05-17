@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
+        <!-- Start - 1st carousel -->
         <div class="container mt-5 border border-danger" style="background-color: #C88EA7;">
             <div id="firstCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <!-- carousel indicators -->
@@ -26,7 +27,7 @@
                     </div>
                 </div>
                 <!-- End carousel indicators -->
-                <!-- carousel controls - start -->
+                <!-- start - carousel controls -->
                 <button class="carousel-control-prev" type="button" data-bs-target="#firstCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
                     <span class="">Previous</span>
@@ -35,12 +36,15 @@
                     <span class="carousel-control-next-icon"></span>
                     <span class="">Next</span>
                 </button>
-                <!-- carousel controls - end -->
+                <!-- End - carousel controls -->
             </div>
         </div>
+        <!-- End - 1st carousel -->
         <hr class="hr">
-        <!-- Second carousel -->
+        <!-- Start - 2nd carousel -->
         <div class="container" style="background-color: #E08E6D;">
+            <h4 class="text-center">Second Card</h4>
+            <p class="text-center">Single carousel cards</p>
             <div id="secondCarousel" class="carousel slide mt-3" data-bs-ride="carousel">
                 <!--carousel indicators - start-->
                 <ol class="carousel-indicators my-5">
@@ -54,7 +58,7 @@
                 <div class="carousel-inner">
                     <!--item 1-->
                     <div class="carousel-item active my-5">
-                        <div class="card">
+                        <div class="card" style="width: 80rem;">
                             <div class="card-header">Card 1</div>
                             <div class="card-body">
                                 <h4>Sample Card</h4>
@@ -84,18 +88,103 @@
 
                 <!-- start - carousel controls -->
                 <!-- end carousel controls -->
+                <!-- Start - Button -->
+                <button type="button" class="carousel-control-prev" data-bs-target="#secondCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#secondCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <!-- End - button-->
             </div>
         </div>
+        <!-- End - 2nd Carousel -->
         <hr class="hr">
-        <!--3rd Carousel -->
-        <div class="container">
+        <!--Start - 3rd Carousel -->
+        <div class="container" style="background-color: #F5F0BB;">
+            <h3 class="h3 text-center">Third Card</h3>
+            <p class="text-center">3 Grouped Carousel cards with <b>col-sm-4</b></p>
             <div class="carousel slide" data-bs-slide-to="carousel">
                 <!--Start - Wrapper -->
-                <div class="carousel-inner">
-                    
+                <div class="carousel-inner h-100 py-5 text-center">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="card h-100">
+                                    <div class="card-header">Card 1</div>
+                                    <div class="card-body">
+                                        <p>Card 1 - Sample Paragraph</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card h-100">
+                                    <div class="card-header">Card 2</div>
+                                    <div class="card-body">
+                                        <p>Card 2 - Sample Paragraph</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card h-100">
+                                    <div class="card-header">Card 3</div>
+                                    <p>Card 3 - Sample Paragraph</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!-- End - Wrapper -->
             </div>
         </div>
+        <!--End 3rd carousel -->
+        <hr class="hr">
+        <!-- Start - 4th Carousel -->
+        <div class="container" style="background-color: #B3C890;">
+            <h3 class="h3 text-center">Fourth Card</h3>
+            <p class="text-center">3 Grouped Carousel cards with <b>col-md-4</b></p>
+            <div id="fourthCarousel" class="carousel slide" data-bs-slide-to="carousel">
+                <!--Start - Wrapper -->
+                <div class="carousel-inner h-100 py-4">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-1 row-cols-md-3 g-2">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-header">Card 1</div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-header">Card 2</div>
+                                    <div class="card-body">
+                                        <p>Sample paragrph, Card 2</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-header">Card 3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End - Wrapper -->
+                <!-- Start - Button -->
+                <button type="button" class="carousel-control-prev" data-bs-target="#fourthCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#fourthCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <!-- End - button-->
+            </div>
+        </div>
+        <!--End - 4th Carousel-->
         <script src="" async defer></script>
     </body>
 </html>
