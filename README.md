@@ -1,7 +1,32 @@
 # Web Applications (HTML, CSS, Bootstrap & JavaScript)
 ## Table of Contents
+- [Different Types of Websites](#Different-Types-of-Websites)
+  - Type 1 - Static Website
+  - Type 2 - Single Page Applications
+  - Type 3 - Server - Side Rendering
+
 - [Further Reading]()
-  - []()
+  - [dev community - Different Types of Websites](https://dev.to/anuradha9712/different-types-of-websites-4im1)
+
+# Different Types of Websites
+# Type 1: Static Website
+* Made of HTML, CSS, and JavaScript.
+* We have to upload HTML pages to CDN to host them on the web and whenever we request those pages in a browser it would return them to us.
+* So for every new page, we made a new request to the server.
+
+# Type 2: Single Page Applications (SPA)
+* Based on the concept of __Client-Side Rendering__.
+* A __single-page application__ is an app that works inside a browser.
+* __SPAs__ are structured as a single HTML page that has no preloaded content.
+* Content is loaded via Javascript files for the entire application and housed within a single HTML page.
+* Only a single server request was made for the initial empty HTML page.
+* Everything else (routing, data) is handled by the SPA in the browser.
+* Typical React/ Vue applications come under this category.
+
+# Type 3: Server-Side Rendering
+* HTML pages are built on the server-side after every page request.
+* Server gets the data from various sources like databases, aggregates them into template files, and then sends the resulting HTML file back to the browser.
+* `PHP` or `Nodejs` with templating engines like `EJS`, `jade`, `hbs` comes under this category.
 
 # Best Color Websites for Front-End Developers
 1. [Color Hunt](https://colorhunt.co/)
