@@ -1,11 +1,7 @@
-# Frontend Web Applications (HTML, CSS, Bootstrap & JavaScript)
+# Web Applications (HTML, CSS, Bootstrap & JavaScript)
 ## Table of Contents
-- [Frontend Web Applications (HTML, CSS, Bootstrap \& JavaScript)](#frontend-web-applications-html-css-bootstrap--javascript)
-  - [Table of Contents](#table-of-contents)
-- [Best Color Websites for Front-End Developers](#best-color-websites-for-front-end-developers)
-- [Platforms Used to Know Frameworks Webiste is built on](#platforms-used-to-know-frameworks-webiste-is-built-on)
-- [Websites to Improve on Frontend Skills](#websites-to-improve-on-frontend-skills)
-- [Websites for Designing Logo](#websites-for-designing-logo)
+- [Further Reading]()
+  - []()
 
 # Best Color Websites for Front-End Developers
 1. [Color Hunt](https://colorhunt.co/)
@@ -44,3 +40,15 @@
 3. [pixabay.com](https://pixabay.com/)
 4. [StockSnap.io](https://stocksnap.io/)
 5. [freeimages.com](https://www.freeimages.com/)
+
+# VS Code Extensions for Web Applications
+1. [JavaScript Code Snippet](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) - contains code snippets for JavaScript in ES6 syntax for Vs Code editor (supports both JavaScript and TypeScript).
+2. [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode) - screenshot for the code
+3. [All Autocomplete](https://marketplace.visualstudio.com/items?itemName=Atishay-Jain.All-Autocomplete)
+4. [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+5. [Auto Import - ES6, TS, JSX, TSX](https://marketplace.visualstudio.com/items?itemName=NuclleaR.vscode-extension-auto-import) - Automatically finds, parses and provides code actions and code completion for all available imports. Works with JavaScript (ES6) and TypeScript (TS)
+6. [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) - Automatically rename HTML tags.
+7. [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+8. [Google Fonts](https://marketplace.visualstudio.com/items?itemName=lior-chamla.google-fonts) - Browse google fonts from VSCode and also get the CSS import instantly.
+9. [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+10. [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
