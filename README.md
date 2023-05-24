@@ -15,6 +15,19 @@
 
 * [BuiltWith - Web Technology Profiler](https://builtwith.com/): Enter the website there, frameworks, technologies, ad-platforms everything will be displayed.
 
+# Web Performance Tracking Tools
+1. __Google PageSpeed Insights__ - measures the performance of your website on both mobile and desktop devices, and provides actionable recommendations for improving its speed and usability.
+
+2. __GTmetrix__ - This tool analyzes your website's performance and provides a detailed report on its load time, page size, and other performance metrics. It also offers recommendations for optimizing your website's speed and performance.
+
+
+3. __Pingdom__ - This tool monitors your website's uptime and performance, and alerts you if there are any issues or downtime. It also provides detailed reports on your website's performance, including load time, page size, and more.
+
+
+4. __WebPageTest__ - This tool allows you to test your website's speed and performance from multiple locations around the world, and provides a detailed report on its performance, including load time, page size, and other metrics.
+
+
+5. __Kinsta Page Speed__ - This tool provides a detailed analysis of your website's speed and performance, including load time, page size, and other performance metrics. It also offers actionable recommendations for improving your website's speed and performance.
 # Websites to Improve on Frontend Skills
 1. [Dribble](https://dribbble.com/)
     - Discover new techniques, practice recreating designs, and stay up-to-date with the latest trends.
