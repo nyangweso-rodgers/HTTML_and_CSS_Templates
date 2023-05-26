@@ -1,13 +1,12 @@
 # Bootstrap 5 css grid
 
 
-# How it works
-* __Replace instances of__ `.row` with `.grid`. The `.grid` class sets `display: grid` and creates a `grid-template` that you build on with your HTML.
-* __Replace__ `.col-*` classes with `.g-col-*` classes. This is because our CSS Grid columns use the `grid-column` property instead of `width`.
+# Bootstrap 5 Grid System
+* __Bootstrap’s grid system__ uses a series of `containers`, `rows`, and `columns` to layout and align content. It’s built with `flexbox` and is fully responsive.
 
-# Compared to the default grid system
-* __Gaps__ replaces __gutters__. The gap property replaces the horizontal `padding` from our default grid system and functions more like `margin`.
+# Responsive Classes
+# All Breakpoints
+* For grids that are the same from the smallest of devices to the largest, use the `.col `and `.col-*` classes. Specify a numbered class when you need a particularly sized column; otherwise, feel free to stick to `.col`.
 
-# Examples
-# Example 1: Three columns
-* Three equal-width columns across all viewports and devices can be created by using the `.g-col-4` classes. 
+# Stacked to horizontal
+* Using a single set of `.col-sm-*` classes, you can create a basic grid system that starts out stacked and becomes horizontal at the small breakpoint (`sm`).

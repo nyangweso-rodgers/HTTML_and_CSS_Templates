@@ -14,25 +14,136 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-        <div class="container">
-            <h2>Example: Three Columns</h2>
-            <div class="grid" style="background-color: #E5F9DB;">
-                <div class="g-col-2 my-3" style="background-color: #A0D8B3;">.g-col-4</div>
-                <div class="g-col-4 my-3" style="background-color: #A2A378;">.g-col-4</div>
-                <div class="g-col-4 my-3" style="background-color: #83764F;">.g-col-4</div>
+        <hr class="hr">
+        <div class="container text-center my-3">
+            <h2>Example: 3 Equal Columns</h2>
+            <p>3 equal-width columns across all devices and viewports using predefined grid classes </p>
+            <div class="row bg-danger text-white">
+                <div class="col border">Column 1</div>
+                <div class="col border">Column 2</div>
+                <div class="col border">Column 3</div>
             </div>
         </div>
-        <hr>
-        <div class="grid" style="--bs-columns: 3;">
-            <div style="background-color: #A0D8B3;">Auto-column</div>
-            <div style="background-color: #A2A378;">Auto-column</div>
-            <div style="background-color: #83764F;">Auto-column</div>
-        </div> 
-        <hr>
-        <div class="grid" style="--bs-columns: 4; --bs-gap: 5rem;">
-            <div class="g-col-2">.g-col-2</div>
-            <div class="g-col-2">.g-col-2</div>
-          </div>
+        <hr class="hr">
+        <div class="container text-center">
+            <h2>Example: Stacked to horizontal</h2>
+            <div class="row my-3 g-2 bg-success text-white p-4">
+                <div class="col-sm-8 border" >.col-sm-8</div>
+                <div class="col-sm-4 border">.col-sm-4</div>
+            </div>
+            <div class="row my-3 g-2 bg-danger text-white p-4">
+                <div class="col-sm border" >.col-sm</div>
+                <div class="col-sm border">.col-sm</div>
+                <div class="col-sm border">.col-sm</div>
+            </div>
+        </div>
+        <hr class="hr">
+        <div class="container text-center">
+            <h2>Example: Mix & Match</h2>
+            <p>Don’t want your columns to simply stack in some grid tiers? Use a combination of different classes for each tier as needed.</p>
+             <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+            <div class="row bg-primary text-white my-3 p-5">
+                <div class="col-md-8 border">.col-md-8</div>
+                <div class="col-6 col-md-4 border">.col-6 .col-md-4</div>
+            </div>
+            <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+            <div class="row bg-secondary text-white my-3 p-5">
+                <div class="col-6 col-md-4 border">.col-6 .col-md-4</div>
+                <div class="col-6 col-md-4 border">.col-6 .col-md-4</div>
+                <div class="col-6 col-md-4 border">.col-6 .col-md-4</div>
+            </div>
+            <!-- Columns are always 50% wide, on mobile and desktop -->
+            <div class="row bg-success text-white my-3 p-5">
+                <div class="col-6 border">.col-6</div>
+                <div class="col-6 border">.col-6</div>
+            </div>
+        </div>
+        <hr class="hr">
+        <div class="container text-center my-3 p-5">
+            <h2>Row Columns</h2>
+            <p>Use the responsive <b>.row-cols-*</b> classes to quickly set the number of columns that best render your content and layout. </p>
+            <p>Whereas normal <b>.col-*</b>classes apply to the individual columns (e.g., <b>.col-md-4</b>) the row columns classes are set on the parent <b>.row</b> as a default for contained columns.</p>
+            <p>With <b>.row-cols-auto</b> you can give the columns their natural width.</p>
+            <p>Use these row columns classes to quickly create basic grid layouts or to control your card layouts and override when needed at the column level.</p>
+            <div class="row bg-warning row-cols-2 my-3">
+                <div class="col border">column</div>
+                <div class="col border">column</div>
+                <div class="col border">column</div>
+                <div class="col border">column</div>
+            </div>
+            <hr class="hr">
+            <div class="row bg-warning row-cols-3 my-3">
+                <div class="col border">column</div>
+                <div class="col border">column</div>
+                <div class="col border">column</div>
+                <div class="col border">column</div>
+            </div>
+            <hr class="hr">
+            <div class="row bg-warning row-cols-auto my-3">
+                <div class="col border">column</div>
+                <div class="col border">column</div>
+                <div class="col border">column</div>
+                <div class="col border">column</div>
+            </div>
+            <hr class="hr">
+            <p><b>.row-cols-4</b></p>
+            <div class="row bg-warning row-cols-4 my-3">
+                <div class="col border">column</div>
+                <div class="col border">column</div>
+                <div class="col border">column</div>
+                <div class="col border">column</div>
+            </div>
+            <hr class="hr">
+            <p><b>.row-cols-4</b> with one <b>.col-6</b></p>
+            <div class="row bg-warning row-cols-4 my-3">
+                <div class="col border">column</div>
+                <div class="col border">column</div>
+                <div class="col-6 border">column</div>
+                <div class="col border">column</div>
+            </div>
+            <hr class="hr">
+            <p><b>.row-cols-1 .row-cols-sm-2 .row-cols-md-4</b></p>
+            <div class="row bg-warning row-cols-1 row-cols-sm-2 row-cols-md-4 my-3">
+                <div class="col border">column</div>
+                <div class="col border">column</div>
+                <div class="col border">column</div>
+                <div class="col border">column</div>
+            </div>
+            <hr class="hr">
+            <p><b>.row-cols-2 .row-cols-lg-3</b></p>
+            <div class="row row-cols-2 row-cols-lg-3 bg-warning my-3">
+                <div class="col border">Column</div>
+                <div class="col border">Column</div>
+                <div class="col border">Column</div>
+                <div class="col border">Column</div>
+                <div class="col border">Column</div>
+                <div class="col border">Column</div>
+                <div class="col-4 col-lg-2 border">Column</div>
+                <div class="col-4 col-lg-2 border">Column</div>
+                <div class="col-4 col-lg-2 border">Column</div>
+                <div class="col-4 col-lg-2 border">Column</div>
+                <div class="col-4 col-lg-2 border">Column</div>
+                <div class="col-4 col-lg-2 border">Column</div>
+            </div>
+        </div>
+        <hr class="hr">
+        <!-- Start - Nesting -->
+        <div class="container text-center my-3">
+            <h2>Nesting</h2>
+            <p>To nest your content with the default grid, add a new <b>.row</b> and set of <b>col-sm-*</b> columns within an existing <b>col-sm-*</b> column</p>
+            <p>Nested rows should include a set of columns that add up to 12 or fewer (it is not required that you use all 12 available columns).</p>
+            <div class="row bg-info p-5">
+                <div class="col-sm-3 border p-4">Level 1: .col-sm-3</div>
+                <div class="col-sm-9 border">
+                    <div class="row p-4">
+                        <div class="col-sm-6 border p-2">Level 2: .col-sm-6</div>
+                        <div class="col-sm-6 border p-2">Level 2: .col-sm-6</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End - Nesting -->
+        <hr class="hr">
         <script src="" async defer></script>
     </body>
 </html>
