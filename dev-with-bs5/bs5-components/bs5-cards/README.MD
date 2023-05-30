@@ -3,6 +3,8 @@
 ## Table Of Contents
 - [Further Reading]()
   - [MDB - Cards](https://mdbootstrap.com/docs/standard/components/cards/#!)
+  - [devwares.com - card](https://www.devwares.com/docs/contrast/javascript/components/card/)
+  - [getbootstrap.com - card](https://getbootstrap.com/docs/5.0/components/card/)
 
 
 
