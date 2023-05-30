@@ -1,3 +1,2 @@
-# images
+# Working with Images in Web Applications
 
-Folder for images used in this project.
