@@ -32,8 +32,7 @@
 8. Leverage browser caching:
    - Configure your server to cache images in the user's browser, so they don't have to be re-downloaded on subsequent visits.
 9. Use CSS for simple effects:
-   - Instead of using images for simple effects like shadows, gradients, or rounded corners, use CSS3 properties to achieve these effects with minimal impact on page load times.  
+   - Instead of using images for simple effects like shadows, gradients, or rounded corners, use CSS3 properties to achieve these effects with minimal impact on page load times. 
 
-
-
-
+# Links to Free Image Library
+1. [www.freepik.com](https://www.freepik.com/free-photos-vectors/web-application)
