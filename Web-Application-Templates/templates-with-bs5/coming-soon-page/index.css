@@ -1,0 +1,26 @@
+
+* {
+    font-family: cursive,'Courier New', Courier, monospace;
+}
+.coming-soon-section {
+    background: #EEE2DE;
+    display: flex;
+    height: 100vh;
+}
+
+.main {
+    background: #40128B;
+    flex: 50%;
+}
+
+.aside {
+    background: #9336B4;
+    flex: 50%;
+}
+
+.btn {
+    background: linear-gradient(125deg, #3498db, #34495e);
+    color: #fff;
+    cursor: pointer;
+	transition: 0.4s;
+}
