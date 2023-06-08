@@ -11,3 +11,6 @@
 
 # Recap on `setInterval` `JS` Method
 * The `setInterval()` method calls a function at a specified intervals (in Milliseconds). The method continues to call the function until `clearInterval() `method is called or the window is closed.
+
+# References
+- [github.com/nyangweso-rodgers - Date Objects](https://github.com/nyangweso-rodgers/Programming-with-JavaScript/tree/main/JavaScript-Fundamentals/OOP/Date-Objects)
