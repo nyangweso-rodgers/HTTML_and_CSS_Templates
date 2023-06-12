@@ -7,6 +7,7 @@
 
 - [Further Reading]()
   - [dev community - Different Types of Websites](https://dev.to/anuradha9712/different-types-of-websites-4im1)
+  - [freeCodeCamp - How Web Pages Get Rendered on the Browser – Different Methods Explained](https://www.freecodecamp.org/news/web-page-rendering-on-the-browser-different-methods/)
 
 # Different Types of Websites
 # Type 1: Static Website
@@ -24,7 +25,7 @@
 * Typical React/ Vue applications come under this category.
 
 # Type 3: Server-Side Rendering
-* HTML pages are built on the server-side after every page request.
+* `HTML` pages are built on the server-side after every page request.
 * Server gets the data from various sources like databases, aggregates them into template files, and then sends the resulting HTML file back to the browser.
 * `PHP` or `Nodejs` with templating engines like `EJS`, `jade`, `hbs` comes under this category.
 
