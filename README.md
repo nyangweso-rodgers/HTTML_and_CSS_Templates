@@ -5,6 +5,13 @@
   - Type 2 - Single Page Applications
   - Type 3 - Server - Side Rendering
 
+- [Web Applications]()
+    1. [Coming Soon Web App](https://github.com/nyangweso-rodgers/Web-Applications/tree/main/Web-Apps/Coming-Soon-Web-App)
+    2. [Digital Time App](https://github.com/nyangweso-rodgers/Web-Applications/tree/main/Web-Apps/Digital-Time-Display-App)
+
+- [Static Web App Templates]()
+    1. [Web Page Layout]()
+
 - [Further Reading]()
   - [dev community - Different Types of Websites](https://dev.to/anuradha9712/different-types-of-websites-4im1)
   - [freeCodeCamp - How Web Pages Get Rendered on the Browser – Different Methods Explained](https://www.freecodecamp.org/news/web-page-rendering-on-the-browser-different-methods/)
