@@ -47,6 +47,6 @@ let displayRemainingTimeFunction = function displayRemainingTime(targetDate) {
     setInterval(updateDisplayFunction, 1000);
 };
 
-let targetDate = "2023-06-14"; // Replace with your specific target date
+let targetDate = "2023-12-01"; // Replace with your specific target date
 
 displayRemainingTimeFunction(targetDate);

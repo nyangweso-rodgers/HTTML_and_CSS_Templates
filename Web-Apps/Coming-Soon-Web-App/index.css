@@ -2,20 +2,18 @@
 * {
     font-family: cursive,'Courier New', Courier, monospace;
 }
-.coming-soon-section {
-    background: #EEE2DE;
+
+.col-sm-6 {
     display: flex;
-    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
-.main {
+.counter-section {
     background: #40128B;
-    flex: 50%;
 }
-
-.aside {
+.subscription-section {
     background: #9336B4;
-    flex: 50%;
 }
 
 .btn {
