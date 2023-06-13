@@ -3,4 +3,4 @@
 # Description
 * Designing `Comming Soon Web Page` using `html5`, `css3`, `Bootstrap 5`, and `JavaScript`
 
-![](images/output-1.png)
+![Display](images/output-1.png)
