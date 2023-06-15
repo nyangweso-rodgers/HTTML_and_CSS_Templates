@@ -1,0 +1,26 @@
+
+
+div.translate-transform {
+    border: 2px dotted #ccc;
+    background: yellowgreen;
+    width: 400px;
+    height: 150px;
+    margin: 24px;
+    transform: translate(50px, 10px);
+}
+
+div.translate-transformX {
+    border: 2px solid #ccc;
+    background: purple;
+    width: 400px;
+    height: 100px;
+    transform: translateX(100px);
+}
+
+div.translate-transformY {
+    border: 2px solid #ccc;
+    background: rgb(29, 211, 171);
+    width: 400px;
+    height: 100px;
+    transform: translateY(10px);
+}
