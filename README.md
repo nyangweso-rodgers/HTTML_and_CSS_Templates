@@ -80,12 +80,15 @@
 5. [Ucraft](https://www.ucraft.com/)
 6. [Looka](https://looka.com/)
 
-# Free Sites for Images
+# Free Sites to Download Images For a Website
 1. [unsplash.com](https://unsplash.com/)
 2. [pexels.com](https://www.pexels.com/)
 3. [pixabay.com](https://pixabay.com/)
 4. [StockSnap.io](https://stocksnap.io/)
 5. [freeimages.com](https://www.freeimages.com/)
+
+# Content Management Systems For Website Hosting
+1. [SQUARESPACE](https://www.squarespace.com/?clickid=XpqyI%3A0ZtxyPTg%3AV9Mwcc0e-UkFxWCVr1Xd3VI0&irgwc=1&utm_medium=pp&utm_source=CLICKDEALER%20ASIA%20PTE.%20LTD.&utm_campaign=CLICKDEALER%20ASIA%20PTE.%20LTD.&channel=pp&subchannel=1934383&source=CLICKDEALER%20ASIA%20PTE.%20LTD.)
 
 # VS Code Extensions for Web Applications
 1. [JavaScript Code Snippet](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) - contains code snippets for JavaScript in ES6 syntax for Vs Code editor (supports both JavaScript and TypeScript).
