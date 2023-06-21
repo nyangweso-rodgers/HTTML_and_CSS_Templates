@@ -1,19 +1,47 @@
 // get Elements using querySelector()
 
-let addToButton = document.querySelector('#addToDo');
-let newToDoInput = document.querySelector('#newToDo');
-let toDoList = document.querySelector('ul');
+let select = document.querySelector('#mySelect');
+let input = document.querySelector('#myInput');
+let button = document.querySelector('#myButton');
+let list = document.querySelector('#myList');
 
-addToButton.addEventListener('click', function () {
-    const newToDo = newToDoInput.value
 
-    if (newToDo === '') {
-        return;
-    }
+// add event listeners to the button
+button.addEventListener('click', function () {
 
-    const toDoItem = document.createElement('li');
-    toDoItem.innerHTML = newToDo
-    toDoList.appendChild(toDoItem);
+    // Get Selected option value and text
+    let selectedValue = select.value;
+    //console.log(selectedValue); //TODO:
+    let selectedText = select.options[select.selectedIndex].text;
+    //console.log(selectedText); //TODO:
 
-    newToDoInput.value = ''
-})
+    // Get user Input Text
+    let userInput = input.value;
+    // console.log(userInput); //TODO:
+
+    // Create list item elements
+    let listItem = document.createElement('li');
+    let sublistItem = document.createElement('li');
+    // console.log(listItem); //TODO:
+
+    // Set the content for the list items
+    listItem.textContent = selectedText;
+    //console.log(listItem); //TODO:
+    sublistItem.textContent = userInput;
+    //console.log(sublistItem); //TODO:
+
+    // Append the list items to the list
+    list.appendChild(listItem);
+
+    // create a sublist and append to the sublist item
+    let subList = document.createElement('ul'); 
+    subList.appendChild(sublistItem);
+
+    // Append the sublist to the list item
+    listItem.appendChild(subList);
+
+    // clear the selected value and inout text
+    select.value = '';
+    input.value = '';
+
+});
