@@ -1,6 +1,11 @@
 
 body {
     background: #E7CEA6;
+    font-family: "Trirong", serif;
+}
+
+h2 {
+    font-size: 8vw;
 }
 .container {
     align-items: center;

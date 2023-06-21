@@ -17,16 +17,16 @@ button.addEventListener('click', function () {
 
     // Get user Input Text
     let userInput = input.value;
-    // console.log(userInput); //TODO:
+    // console.log(userInput); //TODO: Run To Test 
 
     // Create list item elements
     let listItem = document.createElement('li');
     let sublistItem = document.createElement('li');
-    // console.log(listItem); //TODO:
+    // console.log(listItem); //TODO: Run To Test
 
     // Set the content for the list items
     listItem.textContent = selectedText;
-    //console.log(listItem); //TODO:
+    //console.log(listItem); //TODO: Run to Test
     sublistItem.textContent = userInput;
     //console.log(sublistItem); //TODO:
 
