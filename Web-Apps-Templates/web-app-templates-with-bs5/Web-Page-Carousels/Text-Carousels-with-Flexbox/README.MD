@@ -1,2 +1,3 @@
-# Project: Text Carousels with CSS Flexbox
+# Project: Text Carousels with `Bootstrap 5` Flexbox
 
+# Description
