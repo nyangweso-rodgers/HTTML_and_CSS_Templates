@@ -1,0 +1,16 @@
+
+
+.container {
+    background: #213363;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > div {
+    background: #fff;
+    color: #fff;
+    height: 100px;
+    width: 100px;
+}

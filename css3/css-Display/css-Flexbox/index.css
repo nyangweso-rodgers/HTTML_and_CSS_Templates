@@ -1,0 +1,15 @@
+
+
+.container {
+    background: #8EAC50;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.container > div {
+    background-color: aliceblue;
+    font-size: 30px;
+    margin: 10px;
+    width: 100px;
+}
