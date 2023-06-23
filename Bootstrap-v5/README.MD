@@ -43,15 +43,18 @@
 
 # HTML5 with Bootstrap 5 Boilerplate
 ```html
-    <!DOCTYPE html>
+      <!DOCTYPE html>
 
-    <html>
+      <html>
         <head>
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <title></title>
             <meta name="description" content="">
             <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <!-- Google Fonts -->
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Trirong|Actor">
 
             <!-- Latest compiled and minified CSS -->
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -61,7 +64,7 @@
         </head>
         <body>
             
-            <script src="" async defer></script>
+            <script src="index.js" async defer></script>
         </body>
-    </html>
+      </html>
 ```
