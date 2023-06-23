@@ -18,48 +18,212 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div class="container">
+        <div class="container border">
             <h1 class="text-center">Text Carousel with <code>Bootstrap 5</code> Flex!</h1>
         </div>
-        <!-- Another Slide -->
-        <div class="container-fluid border border-warning p-2 my-3">
-            <div class="row border border-danger p-2">
-                <div class="col border border-primary p-2">
-                    <div class="d-flex justify-content-evenly border border-secondary g-3 p-3 my-2">
-                        <div class="col border">
-                            <h4>My Most Popular <code>GitHub</code> Repos</h4>
-                        </div>
-                        <div class="col border">
-                            <h4>Another Content Coming Soon!</h4>
-                        </div>
-                        <div class="col border">
-                            <h4>Another Content Coming Soon!</h4>
-                        </div>
-                        <div class="col border">
-                            <h4>Another Content Coming Soon!</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- Carousel -->
-        <div class="container-fluid border border-primary p-2 my-5">
-            <div class="row d-flex border border-secondary p-2 m-2 g-3">
-                <div class="col-sm-3 border">
-                    <h4>My Most Popular <code>GitHub</code> Repos</h4>
-                </div>
-                <div class="col-sm-3 border">
-                    <h4>Another Content Coming Soon!</h4>
-                </div>
-                <div class="col-sm-3 border">
-                    <h4>Another Content Coming Soon!</h4>
-                </div>
-                <div class="col-sm-3 border">
-                    <h4>Another Content Coming Soon!</h4>
+
+        <!-- Start - Carousel Section -->
+        <div class="container-fluid border border-primary p-2 my-5" style="background: #84A7A1;">
+            <div class="row border text-center">
+                <h2 class="">Tech Blog</h2>
+                <h3>Trending Topics and Tips in Tech!</h3>
+            </div>
+            <div class="row border border-secondary p-2">
+                <div id="myCarousel" class="carousel slide border border-danger" data-bs-ride="carousel">
+
+                    <!-- Start - Indicators -->
+                    <div class="carousel-indicators">
+                        <button type="" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                    <!-- End - Indicators -->
+
+                    <!-- Start - Slides -->
+                    <div class="carousel-inner">
+
+                        <!-- Start - Slide 1  -->
+                        <div class="carousel-item active mb-5">
+                            <div class="row g-2">
+                                <!-- Start - Item 1 of Slide 1 -->
+                                <div class="col-sm-4 border p-2">
+                                    <div class="card h-100">
+                                        <div class="card-body text-center">
+                                            <h3>My Popular <code>GitHub</code> Repos.</h3>
+                                            <blockquote class="blockquote">
+                                                <p></p>
+                                                <footer class="blockquote-footer"> <cite></cite></footer>
+                                            </blockquote>
+                                            <ul class="list-group list-group-flush">
+                                                <a class="list-group-item list-group-item-action" href="https://github.com/nyangweso-rodgers/Data_Analytics/tree/main/Analytics-with-Python" target="_blank">
+                                                    <div class="">
+                                                        <div class="">Data Analytics</div>
+                                                        <code>Python</code>
+                                                    </div>
+                                                </a>
+                                                <a class="list-group-item list-group-item-action" href="https://github.com/nyangweso-rodgers/Web-Applications/tree/main/Web-Apps" target="_blank">
+                                                    <div class="">
+                                                        <div class="">Web Applications</div>
+                                                        <code>html5</code>, <code>css3</code>, <code>js</code> and <code>Bootstrap 5</code>
+                                                    </div>
+                                                </a>
+                                                <a class="list-group-item list-group-item-action" href="https://github.com/nyangweso-rodgers/My-Databases" target="_blank">
+                                                    <div class="">
+                                                        <div class="">Databases</div>
+                                                        <code>BigQuery</code>, <code>MongoDB</code>, <code>postgreSQL</code> and <code>MySQL</code>
+                                                    </div>
+                                                </a>
+                                                <a class="list-group-item list-group-item-action" href="https://github.com/nyangweso-rodgers/My-Journey-Into-Computer-Science" target="_blank">
+                                                    <div class="">
+                                                        <div class="">My Journey Into Computer Science</div>
+                                                        <code>bash</code>, <code>Git</code>, <code>Google Cloud</code>
+                                                    </div>
+                                                </a>
+                                            </ul>
+                                            <a class="btn btn-primary mt-5" role="button" target="_blank" href="https://github.com/nyangweso-rodgers">Learn More</a>
+                                        </div>
+                                        <div class="card-footer text-center p-2">
+                                            <small class="text-muted">Last Updated: 2023-06-23</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End - Item 1 of Slide 1 -->
+
+                             <!-- Start - Item 2 of Slide 1 -->
+                            <div class="col-sm-4 border p-2">
+                                <div class="card h-100">
+                                    <div class="card-body text-center">
+                                        <h3 class="card-title">Data Analytics</h3>
+                                        <blockquote class="blockquote">
+                                            <p>What Makes You a Unicorn in Data Analytics?</p>
+                                            <footer class="blockquote-footer">Mo Villgran <cite>Medium</cite></footer>
+                                        </blockquote>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Ability to predict data issues.</li>
+                                            <li class="list-group-item">Ability to always delivery what is asked by your stakeholders</li>
+                                            <li class="list-group-item">Always in sync with the stakeholders</li>
+                                            <li class="list-group-item">There aren't weird data issues you can't solve</li>
+                                        </ul>
+                                        <a class="btn btn-primary mt-5" role="button" target="_blank" href="https://venture.circuit.ooo/what-makes-you-a-unicorn-in-data-analytics-a5e359aa1601">Learn More</a>
+                                    </div>
+                                    <div class="card-footer text-center p-2">
+                                        <small class="text-muted">Last Updated: 2023-06-23</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End - Item 2 of Slide 1 -->
+
+                            <!-- Start - Item 3 of Slide 1 -->
+                            <div class="col-sm-4 border p-2">
+                                <div class="card h-100">
+                                    <div class="card-body text-center">
+                                        <h3 class="card-title">Software Development.</h3>
+                                        <blockquote class="blockquote">
+                                            <p>Top 5 Backend Services for Your Next Software Development Project</p>
+                                            <footer class="blockquote-footer">Rodgers Nyangweso <cite></cite></footer>
+                                        </blockquote>
+                                        <ul class="list-group list-group-flush">
+                                            <a class="list-group-item list-group-item-action" href="https://www.cyclic.sh/" target="_blank">cyclic.sh</a>
+                                            <a class="list-group-item list-group-item-action" href="https://render.com/" target="_blank">Render</a>
+                                            <a class="list-group-item list-group-item-action" href="https://railway.app/" target="_blank">railway.app</a>
+                                            <a class="list-group-item list-group-item-action" href="https://nhost.io/" target="_blank">Nhost</a>
+                                            <a class="list-group-item list-group-item-action" href="https://fly.io/" target="_blank">Fly.io</a>
+                                        </ul>
+                                        <a class="btn btn-primary mt-5" role="button" target="_blank" href="">Learn More</a>
+                                    </div>
+                                    <div class="card-footer text-center p-2">
+                                        <small class="text-muted">Last Updated: 2023-06-23</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End - Item 3 of Slide 1 -->
+                        </div>
+                        </div>
+                        <!-- End - Slide 1 -->
+                        
+                        <!-- Start - Slide  2-->
+                        <div class="carousel-item mb-5">
+                            <div class="row g-2">
+                                <!-- Start - Item 1 of Slide 2 -->
+                                <div class="col-sm-4 border p-2">
+                                    <div class="card h-100">
+                                        <div class="card-body text-center">
+                                            <h3 class="card-title">Web Applications!</h3>
+                                            <blockquote class="blockquote">
+                                                <p>7 No-Code/Low-Code Tools to Delivery 100% Results Faster!</p>
+                                                <footer class="blockquote-footer">Rodgers Nyangweso <cite></cite></footer>
+                                            </blockquote>
+                                            <ul class="list-group list-group-flush">
+                                                <a class="list-group-item list-group-item-action" href="https://appwrite.io/" target="_blank">appwrite.io</a>
+                                                <a class="list-group-item list-group-item-action" href="https://lowdefy.com/" target="_blank">lowdefy.com</a>
+                                                <a class="list-group-item list-group-item-action" href="https://cronit.app/" target="_blank">cronit.app</a>
+                                                <a class="list-group-item list-group-item-action" href="https://itsalive.io/" target="_blank">itsalive.io</a>
+                                                <a class="list-group-item list-group-item-action" href="https://apify.com/" target="_blank">apify.com</a>
+                                                <a class="list-group-item list-group-item-action" href="https://nocodb.com/" target="_blank">nocodb.com</a>
+                                                <a class="list-group-item list-group-item-action" href="" target="_blank">flow.microsoft.com</a>
+                                            </ul>
+                                            <a class="btn btn-primary mt-5" role="button" target="_blank" href="">Learn More</a>
+                                        </div>
+                                        <div class="card-footer text-center p-2">
+                                            <small class="text-muted">Last Updated: 2023-06-23</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End - Item 1 of Slide 2-->
+
+                                <!-- Start - Item 2 of Slide 2-->
+                                <div class="col-sm-4 border p-2">
+                                    <div class="card h-100">
+                                        <div class="card-body text-center">
+                                            <h3 class="card-title">Web Applications!</h3>
+                                            <blockquote class="blockquote">
+                                                <p>The self-fulfilling prophecy of <code>ReactJS</code></p>
+                                                <footer class="blockquote-footer">Josh Collinsworth <cite> Josh Collinsworth</cite></footer>
+                                            </blockquote>
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">"React isn’t great at anything except being popular."</li>
+                                                <li class="list-group-item">React has aged. And I don’t think most people—particularly those using it regularly—realize how much or how poorly.</li>
+                                                <li class="list-group-item">React’s satisfaction and interest have been declining steadily for years, while its usage has flattened.</li>
+                                            </ul>
+                                            <a class="btn btn-primary mt-5" role="button" target="_blank" href="https://joshcollinsworth.com/blog/self-fulfilling-prophecy-of-react">Learn More</a>
+                                        </div>
+                                        <div class="card-footer text-center p-2">
+                                            <small class="text-muted">Last Updated: 2023-06-23</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End - Item 2 of Slide 2 -->
+
+                                <!-- Start - Item 3 of Slide 2-->
+                                <div class="col-sm-4 border p-2">
+                                    <div class="card h-100">
+                                        <div class="card-body text-center">
+                                            <h3 class="card-title">Data Analytics.</h3>
+                                            <blockquote class="blockquote">
+                                                <p>Is Big Data Dead? YES, according to <a href="https://motherduck.com/authors/jordan-tigani/" target="_blank">Jordan Tigani</a></p>
+                                                <footer class="blockquote-footer">Jordan Tigani <cite>MotherDuck</cite></footer>
+                                            </blockquote>
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">The most surprising thing is that that most of the people using “Big Query” don’t really have Big Data. Even the ones who do tend to use workloads that only use a small fraction of their dataset sizes.</li>
+                                                <li class="list-group-item">A huge percentage of the data that gets processed is less than 24 hours old.</li>
+                                            </ul>
+                                            <a class="btn btn-primary mt-5" role="button" target="_blank" href="https://motherduck.com/blog/big-data-is-dead/">Learn More</a>
+                                        </div>
+                                        <div class="card-footer text-center p-2">
+                                            <small class="text-muted">Last Updated: 2023-06-23</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End - Item 3 of Slide 2-->
+                            </div>
+                        </div>
+                        <!-- End - Slide 2 -->
+                    </div>
+                    <!-- End - Slides -->
                 </div>
             </div>
         </div>
+        <!-- End - Carousel Section -->
         <script src="index.js" async defer></script>
     </body>
 </html>

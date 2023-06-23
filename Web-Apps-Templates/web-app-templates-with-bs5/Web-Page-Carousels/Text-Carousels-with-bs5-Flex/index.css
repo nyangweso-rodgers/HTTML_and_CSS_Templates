@@ -1,2 +1,12 @@
 
+body {
+    font-family: "Trirong", serif;
+    line-height: 1.9;
+}
+
+div.carousel-indicators button,
+div.carousel-indicators button.active {
+    background-color: red;
+    width: 15%;
+}
 
