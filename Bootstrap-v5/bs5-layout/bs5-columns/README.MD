@@ -1,12 +1,5 @@
 # BS5 - Columns
 
 ## Table Of Contents
-- [BS5 - Columns]()
-  - Alignment
-    - [Horizontal Alignment]()
-    - [Vertical Alignment]()
-  - [Column Breaks]()
-  - [Column Wrapping]()
-  - [Reordering]()
-  - [Offsetting Columns]()
-  - [Standalone Column Classes]()
+- [Further Reading]()
+  1. [Bootstrap v5.0 - Gutters](https://getbootstrap.com/docs/5.0/layout/gutters/)
