@@ -1,4 +1,4 @@
-# Web Applications (HTML, CSS, Bootstrap & JavaScript)
+# Web Applications (`HTML5`, `CSS3`, `Bootstrap 5` & `JavaScript`)
 ## Table of Contents
 - [Different Types of Websites](#Different-Types-of-Websites)
   - Type 1 - Static Website
