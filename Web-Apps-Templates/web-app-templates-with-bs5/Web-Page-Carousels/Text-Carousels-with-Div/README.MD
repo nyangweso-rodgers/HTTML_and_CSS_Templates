@@ -2,5 +2,3 @@
 
 # Description
 * Design a  `carousel` with a `div` element.
-
-![]()
