@@ -4,9 +4,16 @@ body {
     line-height: 1.9;
 }
 
-div.carousel-indicators button,
-div.carousel-indicators button.active {
-    background-color: red;
-    width: 15%;
+#blogContainer {
+    background: #84A7A1;
+}
+
+
+.carousel .carousel-indicators button {
+    position: relative;
+    height: 10px;
+    width: 60px;
+    border-radius: 14px;
+    border: none;
 }
 
