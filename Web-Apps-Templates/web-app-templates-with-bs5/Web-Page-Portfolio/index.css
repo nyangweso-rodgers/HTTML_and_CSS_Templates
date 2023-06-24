@@ -1,0 +1,19 @@
+
+body {
+    font-family: "Trirong", serif;
+    line-height: 1.9;
+}
+
+#portfolioSection {
+    background: #2E8A99;
+}
+
+.card-img {
+  height: 240px; /* Set the desired fixed height for the images */ /* Default height for larger screens */
+  object-fit: cover; /* Ensure the image fills the available space */
+}
+
+
+.portfolio-item {
+    min-height: 25rem;
+}
