@@ -1,0 +1,43 @@
+body {
+    font-family: "Trirong", serif;
+    line-height: 1.9;
+}
+
+#contactMeSection {
+    background: #84A7A1;
+}
+
+.divider-text {
+    border-bottom: 3px solid #eeb809ac;
+    width: 180px;
+}
+
+.fab {
+    padding: 12px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5px 3px;
+  }
+  .fa-linkedin-in {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-github {
+    background: #333333;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fab:hover {
+    opacity: 0.7;
+  }
+
+hr.solid {
+    border-top: 3px solid red;
+}
