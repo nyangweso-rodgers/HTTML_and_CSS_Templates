@@ -1,7 +1,9 @@
-
+body {
+    font-family: "Trirong", serif;
+    line-height: 1.9;
+}
 
 h1 {
-    font-family: "Trirong", serif;
     font-size: 40px;
     text-shadow: 3px 3px 2px #ababab;
 }
