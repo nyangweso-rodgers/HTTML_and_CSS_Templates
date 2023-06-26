@@ -4,13 +4,18 @@ body {
 }
 
 #contactMeSection {
-    background: #84A7A1;
+    /*background: #84A7A1;*/
+    background: #F1F6F9;
 }
 
 .divider-text {
-    border-bottom: 3px solid #eeb809ac;
+    border-bottom: 3px solid rgb(255, 13, 13);
     width: 180px;
 }
+
+.fas  {
+    font-size: 18px;
+  }
 
 .fab {
     padding: 12px;
@@ -39,5 +44,5 @@ body {
   }
 
 hr.solid {
-    border-top: 3px solid red;
+    border-top: 3px solid rgb(255, 13, 13);
 }
