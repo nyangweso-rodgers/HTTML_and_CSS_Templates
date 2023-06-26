@@ -1,0 +1,23 @@
+body {
+    font-family: "Trirong", serif;
+    line-height: 1.9;
+}
+
+.navbar {
+    background: #0A2647;
+    font-size: 24px;
+    font-family: "Trirong", serif;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff;
+}
+
+h1 {
+    font-size: 40px;
+    text-shadow: 3px 3px 2px #ababab;
+}
+
+hr.solid {
+    border-top: 3px solid rgb(255, 13, 13);
+}
