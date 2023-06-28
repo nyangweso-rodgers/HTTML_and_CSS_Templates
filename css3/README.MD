@@ -3,7 +3,7 @@
 ## Introduction to CSS
 - [Overview of CSS]()
 
-- [CSS Selectors](#CSS-Selectors)
+- [CSS Selectors](https://github.com/nyangweso-rodgers/Web-Applications/tree/main/css3/css-Selectors)
 
 - [CSS Units](#CSS-Units)
     - [Absolute Units](#Absolute-Units)
