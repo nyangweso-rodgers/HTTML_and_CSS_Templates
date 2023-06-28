@@ -1,0 +1,16 @@
+body {
+    font-family: "Trirong", serif;
+    line-height: 1.9;
+}
+
+.my-column {
+    padding: 240px 0px;
+}
+
+.left-container {
+    background-color: #809bce;
+}
+
+.right-container {
+    background-color: #b8e0d4;
+}
