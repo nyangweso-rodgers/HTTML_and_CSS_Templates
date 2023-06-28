@@ -19,10 +19,10 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Trirong|Actor">
         <link rel="stylesheet" href="index.css">
     </head>
-    <body>
+    <body class="">
         
             <!-- Start - Navbar -->
-            <nav class="navbar navbar-expand-sm">
+            <nav class="navbar navbar-expand-sm fixed-top">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="">Market Survey App</a>
                 </div>
@@ -30,64 +30,94 @@
             <!-- End - Navbar -->
         
 
-        <section id="" class="border border-secondary">
+        <section id="" class="">
             <div id="" class="container ">
-
-                <div class="row py-2 mb-3">
+                <div class="row">
                     <div class="col-sm">
-                        <div id="" class="">
-                            <label id="" class="form-label fs-2" for="">Market</label>
-                            <select name="" id="" class="form-select form-select-lg">
-                                <option value="" selected disabled>Select Market</option>
-                                <option value="">Market A</option>
-                                <option value="">Market B</option>
-                                <option value="">Market C</option>
-                                <option value="">Market D</option>
-                            </select>
-                        </div>
+                        <label id="" class="form-label" for="">Name</label>
+                        <input id="" class="form-control form-control-lg" type="text" placeholder="First Name, Last Name">
                     </div>
                     <div class="col-sm">
-                        <div id="" class="">
-                            <label id="" class="form-label fs-2" for="">Distributor's Name</label>
-                            <input id="" class="form-control form-control-lg" type="text" placeholder="Name of the distributor">
-                        </div>
+                        <label id="" class="form-label" for="">Role</label>
+                        <select name="" id="" class="form-select form-select-lg">
+                            <option value="" selected disabled>Select Role</option>
+                            <option value="">Sales Representative</option>
+                            <option value="">Area Manager</option>
+                            <option value="">Region Manager</option>
+                            <option value="">Commercial Manager</option>
+                        </select>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <label id="" class="form-label" for="">Market</label>
+                        <select name="" id="" class="form-select form-select-lg">
+                            <option value="" selected disabled>Select Market</option>
+                            <option value="">Market A</option>
+                            <option value="">Market B</option>
+                            <option value="">Market C</option>
+                            <option value="">Market D</option>
+                        </select>
+                    </div>
+                    <div class="col-sm">
+                        <label id="" class="form-label" for="">Distributor's Name</label>
+                        <input id="" class="form-control form-control-lg" type="text" placeholder="Name of the distributor">
+                    </div>
+                    </div>
 
-                <div id="" class="row py-2 mb-3">
+                <div id="" class="row">
                     <div id="" class="col-sm">
-                        <div class="">
-                            <label class="form-label fs-2" for="">Product Category</label>
-                            <select id="productCategorySelect" class="form-select form-select-lg" name="">
-                                <option value="" selected disabled>Select Product Category</option>
-                                <option value="">Fresh Produce</option>
-                                <option value="">FMCG</option>
-                            </select>
-                        </div>
+                        <label class="form-label" for="">Product Category</label>
+                        <select id="productCategorySelect" class="form-select form-select-lg" name="">
+                            <option value="" selected disabled>Select Product Category</option>
+                            <option value="">Fresh Produce</option>
+                            <option value="">FMCG</option>
+                        </select>
                     </div>
                     <div id="" class="col-sm">
-                        <label id="" class="form-label fs-2" for="productSubCategoryInput">Product Sub-Category</label>
+                        <label id="" class="form-label" for="productSubCategoryInput">Product Sub-Category</label>
                         <input id="productSubCategoryInput" class="form-control form-control-lg" type="text" placeholder="Product Sub-Category">
                     </div>
                 </div>
-                    <div class="row py-3 mb-3">
+                <div class="row">
                     <div id="" class="col-sm">
-                        <label id="" class="form-label fs-2" for="productItemInput">Product Item</label>
+                        <label id="" class="form-label" for="productItemInput">Product Item</label>
                         <input id="productItemInput" class="form-control form-control-lg" type="text" placeholder="Product Item">
                     </div>
                     <div id="" class="col-sm">
-                        <label id="" class="form-label fs-2" for="uomInput">UoM</label>
+                        <label id="" class="form-label" for="uomInput">UoM</label>
                         <input id="uomInput" class="form-control form-control-lg" type="text" placeholder="UoM">
                     </div>
                 </div>
 
-                <div class="row py-2">
-                    <label class="form-label fs-2" for="uploadSalesReceipt">Upload Sale Receipt</label>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label class="form-label" for="">Quantity</label>
+                        <input class="form-control form-control-lg" type="number" placeholder="Quantity">
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="form-label" for="">Price</label>
+                        <input class="form-control form-control-lg" type="number" placeholder="Price">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <label class="form-label" for="uploadSalesReceipt">Upload Sale Receipt</label>
                     <input id="uploadSalesReceipt" class="form-control form-control-lg" type="file">
                 </div>
 
-                <div class="row border border-primary py-3 my-3">
+                <div class="row">
                     <button id="" class="btn btn-info btn-lg">Submit</button>
+                </div>
+
+                <div class="row">
+                    <div class="border-bottom border-danger border-3" style=""></div>
+                    <p class="text-center">&copy 2023 Rodgers Nyangweso. All Rights Reserved. 
+                        <span class="text-muted">|</span> 
+                        <span><a class="text-decoration-none" href="#">Terms of Use</a></span> 
+                        <span class="text-muted">|</span> 
+                        <span><a class="text-decoration-none" href="#">Privacy Policy</a></span>
+                    </p>
                 </div>
 
             </div>
