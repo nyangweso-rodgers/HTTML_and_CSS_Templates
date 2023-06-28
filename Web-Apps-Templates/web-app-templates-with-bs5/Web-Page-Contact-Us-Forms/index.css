@@ -13,8 +13,14 @@ body {
     width: 180px;
 }
 
+#connectWithMeBorder {
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #007bb5;
+}
+
 .fas  {
-    font-size: 18px;
+    font-size: 1.4em;
   }
 
 .fab {
