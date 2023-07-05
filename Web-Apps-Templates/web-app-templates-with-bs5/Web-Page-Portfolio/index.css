@@ -4,8 +4,9 @@ body {
     line-height: 1.9;
 }
 
-#portfolioSection {
+.my-portfolio-section {
     background: #2E8A99;
+    padding: 40px 0;
 }
 
 .card-img {
