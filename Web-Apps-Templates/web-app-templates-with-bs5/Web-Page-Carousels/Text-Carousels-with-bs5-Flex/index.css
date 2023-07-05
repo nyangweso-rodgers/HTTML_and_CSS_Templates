@@ -4,10 +4,10 @@ body {
     line-height: 1.9;
 }
 
-#blogContainer {
+.my-blog-section {
     background: #84A7A1;
+    padding: 40px 0;
 }
-
 
 .carousel .carousel-indicators button {
     position: relative;
