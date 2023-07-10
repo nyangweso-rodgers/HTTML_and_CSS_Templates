@@ -27,8 +27,9 @@
     1. [Web Page Layout]()
 
 - [Further Reading]()
-  - [dev community - Different Types of Websites](https://dev.to/anuradha9712/different-types-of-websites-4im1)
-  - [freeCodeCamp - How Web Pages Get Rendered on the Browser – Different Methods Explained](https://www.freecodecamp.org/news/web-page-rendering-on-the-browser-different-methods/)
+  1. [dev community - Different Types of Websites](https://dev.to/anuradha9712/different-types-of-websites-4im1)
+  2. [freeCodeCamp - How Web Pages Get Rendered on the Browser – Different Methods Explained](https://www.freecodecamp.org/news/web-page-rendering-on-the-browser-different-methods/)
+  3. [freeCodeCamp - Server Side Rendering in JavaScript – SSR vs CSR Explained](https://www.freecodecamp.org/news/server-side-rendering-javascript/)
 
 # Different Types of Websites
 # Type 1: Static Website
@@ -36,19 +37,43 @@
 * We have to upload HTML pages to CDN to host them on the web and whenever we request those pages in a browser it would return them to us.
 * So for every new page, we made a new request to the server.
 
-# Type 2: Single Page Applications (SPA)
-* Based on the concept of __Client-Side Rendering__.
-* A __single-page application__ is an app that works inside a browser.
-* __SPAs__ are structured as a single HTML page that has no preloaded content.
-* Content is loaded via Javascript files for the entire application and housed within a single HTML page.
-* Only a single server request was made for the initial empty HTML page.
-* Everything else (routing, data) is handled by the SPA in the browser.
+# Type 2: Single Page Applications (SPA) or Client Side Rendering (CSR)
+* A __SPA__ is an app that works inside a browser. __SPAs__ are structured as a single `HTML` page that has no preloaded content.
 * Typical React/ Vue applications come under this category.
 
-# Type 3: Server-Side Rendering
+# How CSR Works
+1. An `HTTP` request is made to the server.
+2. The server receives the request, and responds by sending an empty `HTML` shell to the client along with a bunch of bundled `JavaScript`.
+3. The client receives the empty `HTML` shell, and proceeds to process all of the `JavaScript`.
+4. The `JavaScript` modifies the `DOM` extensively, which renders the final `HTML` for the end user.
+
+# Type 3: Server-Side Rendering (SSR)
 * `HTML` pages are built on the server-side after every page request.
-* Server gets the data from various sources like databases, aggregates them into template files, and then sends the resulting HTML file back to the browser.
+* Server gets the data from various sources like databases, aggregates them into template files, and then sends the resulting `HTML` file back to the browser.
 * `PHP` or `Nodejs` with templating engines like `EJS`, `jade`, `hbs` comes under this category.
+
+# How SSR Works
+1. An `HTTP` request is made to the server.
+2. The server receives the request, and processes all (or most of) the necessary code right then and there.
+3. The end result is a fully formed and easily consumed HTML page that can be sent to the client’s browser via the server’s response.
+
+# Techniques Used to Check for SSR
+1. __Check the page source__: 
+    - If the `HTML` code is complete with all the content, including the `main` body, `images`, `text`, and so on, the site is likely using __SSR__.
+    - On the other hand, if the `HTML` code is bare-bones, then it requires `JavaScript` to render the content. In this case, it's probably not using __SSR__.
+
+2. __Check Google Cache__:
+    - An easy way to determine if your content is rendering server side is to check the Google Cache.
+    - Simply type in the URL you want to inspect like this with the `site:` operator into Google.
+    - Generally speaking, anything you can visually see is server side rendering. If it's rendering with Javascript, more than likely you won't be able to see it:
+
+3. __Disable `JavaScript`__:
+    - You can also test if a site is using __SSR__ by disabling `JavaScript` on your browser. If the website's content is still visible without `JavaScript`, it is likely using __SSR__. If the website appears blank, it is not using __SSR__.
+
+# Benefits of SSR
+1. The main benefit of __SSR__ is page load speed. Page load speed is an important metric for user experience, and subsequently an important aspect of technical SEO. Google wants to consume pages fast, too.
+
+2. When a page is rendered into `HTML` on the server, all of the heavy-lifting is taken care of. For this reason, when the response makes it to the client’s browser, there isn’t much work left for the browser to display the page. It’s ready to go upon delivery.
 
 # Best Color Websites for Front-End Developers
 1. [Color Hunt](https://colorhunt.co/)
