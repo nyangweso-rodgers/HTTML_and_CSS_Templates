@@ -90,7 +90,7 @@
 # Web Performance Tracking Tools
 1. __Google PageSpeed Insights__ - measures the performance of your website on both mobile and desktop devices, and provides actionable recommendations for improving its speed and usability.
 
-2. __GTmetrix__ - This tool analyzes your website's performance and provides a detailed report on its load time, page size, and other performance metrics. It also offers recommendations for optimizing your website's speed and performance.
+2. __[GTmetrix](https://gtmetrix.com/reports/nyangweso-rodgers.github.io/bJFwGcR0/)__ - This tool analyzes your website's performance and provides a detailed report on its load time, page size, and other performance metrics. It also offers recommendations for optimizing your website's speed and performance.
 
 
 3. __Pingdom__ - This tool monitors your website's uptime and performance, and alerts you if there are any issues or downtime. It also provides detailed reports on your website's performance, including load time, page size, and more.
