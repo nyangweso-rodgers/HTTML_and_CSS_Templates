@@ -1,0 +1,18 @@
+body {
+    font-family: "Trirong", serif;
+    /*line-height: 1.9;*/
+    
+}
+.form-section {
+    background-color: #CED46A;
+    padding: 40px 0px;
+    height: 50vh;
+}
+.form-container {
+    background-color: #DCE2F0;
+}
+
+.form-row {
+    margin: 8px 0px;
+    padding: 8px 0px;
+}
