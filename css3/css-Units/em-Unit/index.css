@@ -1,0 +1,13 @@
+.box-one {
+    background-color: lightblue;
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+}
+
+.box-two {
+    background-color: yellow;
+    font-size: 2em;
+    width: 50%;
+    height: 50%;
+}
