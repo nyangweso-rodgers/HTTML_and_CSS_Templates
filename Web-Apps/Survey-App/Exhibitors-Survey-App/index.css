@@ -1,8 +1,18 @@
 body {
     font-family: "Trirong", serif;
-    line-height: 1.9;
+    /*line-height: 1.9;*/
 }
 
+.navbar {
+    background: #0A2647;
+    font-size: 20px;
+}
+
+.navbar span, .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+}
+/*
 h1 {
     font-size: 40px;
     text-shadow: 3px 3px 2px #ababab;
@@ -11,3 +21,4 @@ h1 {
 hr.solid {
     border-top: 3px solid rgb(255, 13, 13);
 }
+*/

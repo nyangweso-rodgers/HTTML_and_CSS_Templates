@@ -21,47 +21,284 @@
     </head>
     <body>
         <!-- Start - Navbar -->
-        <div id="" class="container-fluid border border-primary p-5"></div>
+        <nav id="" class="navbar navbar-expand-sm sticky-top">
+            <div id="" class="container border border-primary">
+                <!--
+                <a id="" class="navbar-brand" href="">Exhibitors Survey Questionnaire</a>
+                -->
+                <span class="navbar-brand">Exhibitors Survey Questionnaire</span>
+            </div>
+        </nav>
         <!-- End - Navbar -->
 
-        <section id="" class="border border-secondary p-5">
-            <div id="" class="container border border-danger p-5">
-                <div class="row">
-                    <label class="form-label" for="">In which of the following sectors is your company active?</label>
-                    <select class="form-control form-control-lg" name="" id="">
-                        <option value="" selected disabled>Select</option>
-                        <option value="">Marketing and advertising services</option>
-                        <option value="">Food and agriculture</option>
-                        <option value="">Humanitarian aid and other non-profit organisations</option>
-                        <option value="">Data analytics services</option>
-                        <option value="">Aerospace and aviation</option>
-                        <option value="">Telecommunication and networks</option>
-                        <option value="">Automotive and marine</option>
-                        <option value="">Software products and services, SaaS (incl. web development, games and other apps)</option>
-                        <option value="">Tourism/Hospitality</option>
-                        <option value="">Education, training and academic/scientific research</option>
-                        <option value="">Construction</option>
-                        <option value="">Real estate</option>
-                        <option value="">Manufacturing</option>
-                        <option value="">Transportation and logistics</option>
-                        <option value="">Hardware products</option>
-                        <option value="">Government and defence</option>
-                        <option value="">Energy (incl. oil, gas, electricity, and water)</option>
-                        <option value="">Retail</option>
-                        <option value="">Insurance</option>
-                        <option value="">Business consulting, legal services, HR and recruiting services</option>
-                        <option value="">Health, medical, biotechnology and pharmaceuticals</option>
-                        <option value="">Entertainment, media and information</option>
-                        <option value="">Financial services and banking</option>
-                        <option value="">Other (please specifiy)</option>
-                    </select>
+        <section id="" class="border border-secondary">
+            <div id="" class="container border border-danger">
+                <div class="row form-row border border-primary">
+                    <div class="col-sm">
+                        <label class="form-label" for="">First Name</label>
+                        <input class="form-control form-control-lg" type="text">
+                    </div>
+                    <div class="col-sm">
+                        <label class="form-label" for="">Last Name</label>
+                        <input class="form-control form-control-lg" type="text">
+                    </div>
+                    <div class="col-sm">
+                        <label class="form-label" for="">Job Title</label>
+                        <input class="form-control form-control-lg" type="text">
+                    </div>
                 </div>
-                <div id="" class="row">
-                    <div id="" class="col-sm"></div>
+                <div class="row form-row border border-secondary">
+                    <div class="col-sm">
+                        <label class="form-label" for="">Email</label>
+                        <input class="form-control form-control-lg" type="text">
+                    </div>
+                    <div class="col-sm">
+                        <label class="form-label" for="">Phone Number</label>
+                        <input class="form-control form-control-lg" type="text">
+                    </div>
+                    <div class="col-sm">
+                        <label class="form-label" for="">Location</label>
+                        <input class="form-control form-control-lg" type="text">
+                    </div>
+                </div>
+                <div class="row form-row border border-success">
+                    <div class="col">
+                        <label class="form-label" for="">Organization/Company Name</label>
+                        <input class="form-control form-control-lg" type="text" name="" id="">
+                    </div>
+                    
+                </div>
+                <div class="row form-row">
+                    <div class="col">
+                        <label class="form-label" for="">In which of the following sectors is your company active?</label>
+                        <select class="form-select form-select-lg" size="" name="" id="">
+                            <option value="" selected disabled>Select</option>
+                            <option value="">Marketing and advertising services</option>
+                            <option value="">Food and agriculture</option>
+                            <option value="">Humanitarian aid and other non-profit organisations</option>
+                            <option value="">Data analytics services</option>
+                            <option value="">Aerospace and aviation</option>
+                            <option value="">Telecommunication and networks</option>
+                            <option value="">Automotive and marine</option>
+                            <option value="">Software products and services, SaaS (incl. web development, games and other apps)</option>
+                            <option value="">Tourism/Hospitality</option>
+                            <option value="">Education, training and academic/scientific research</option>
+                            <option value="">Construction</option>
+                            <option value="">Real estate</option>
+                            <option value="">Manufacturing</option>
+                            <option value="">Transportation and logistics</option>
+                            <option value="">Hardware products</option>
+                            <option value="">Government and defence</option>
+                            <option value="">Energy (incl. oil, gas, electricity, and water)</option>
+                            <option value="">Retail</option>
+                            <option value="">Insurance</option>
+                            <option value="">Business consulting, legal services, HR and recruiting services</option>
+                            <option value="">Health, medical, biotechnology and pharmaceuticals</option>
+                            <option value="">Entertainment, media and information</option>
+                            <option value="">Financial services and banking</option>
+                            <option value="">Other (please specifiy)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row form-row border border-dark">
+                    <label class="form-label" for="">How did you hear about the <i>XYZ</i> event?</label>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="form-check">
+                                        <input id="option1" class="form-check-input" type="radio" name="radioGroup">
+                                        <label class="form-check-label" for="option1">Social media (e.g., Facebook, Twitter)</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check">
+                                        <input id="option2" class="form-check-input" type="radio" name="">
+                                        <label class="form-check-label" for="option2">Radio /TV</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check">
+                                        <input id="option3" class="form-check-input" type="radio" name="radioGroup">
+                                        <label class="form-check-label" for="option3">Newspaper</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="form-check">
+                                        <input id="option4" class="form-check-input" type="radio" name="radioGroup">
+                                        <label class="form-check-label" for="option4">Word of mouth (Friends, Colleagues)</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check">
+                                        <input id="option5" class="form-check-input" type="radio" name="radioGroup">
+                                        <label class="form-check-label" for="option5">Invitation letter (Email)</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check">
+                                        <input id="" class="form-check-input" type="radio" name="radioGroup">
+                                        <label class="form-check-label" for="">Another option</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="form-check">
+                                        <input id="" class="form-check-input" type="radio" name="radioGroup">
+                                        <label class="form-check-label" for="">Another option</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check">
+                                        <input id="" class="form-check-input" type="radio" name="radioGroup">
+                                        <label class="form-check-label" for="">Another option</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check">
+                                        <input id="" class="form-check-input" type="radio" name="radioGroup">
+                                        <label class="form-check-label" for="">Other (<i>Specify</i>)</label>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
 
-                <div class="row border border-primary py-3 my-3">
-                    <button id="" class="btn btn-info btn-lg">Submit</button>
+                <div class="row form-row border border-warning">
+                    <div class="col">
+                        <label class="form-label" for="">Check appropriately</label>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Never heard of it</th>
+                                    <th scope="col">Heard of it, but not sure what it does</th>
+                                    <th scope="col">Aware of it, but not interested/not applicable</th>
+                                    <th scope="col">Used it, in the past 12 months</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Microservice</th>
+                                    <td class="radio-cell">
+                                        <div class="form-check">
+                                            <input id="row1-col1" class="form-check-input" type="radio" name="radioGroup1">
+                                            <label class="form-check-label" for="row1-col1"></label>
+                                        </div>
+                                    </td>
+                                    <td class="radio-cell">
+                                        <div class="form-check">
+                                            <input id="row1-col2" class="form-check-input" type="radio" name="radioGroup1">
+                                            <label class="form-check-label" for="row1-col2"></label>
+                                        </div>
+                                    </td>
+                                    <td class="radio-cell">
+                                        <div class="form-check">
+                                            <input id="row1-col3" class="form-check-input" type="radio" name="radioGroup1">
+                                            <label class="form-check-label" for="row1-col3"></label>
+                                        </div>
+                                    </td>
+                                    <td class="radio-cell">
+                                        <div class="form-check">
+                                            <input id="row1-col4" class="form-check-input" type="radio" name="radioGroup1">
+                                            <label class="form-check-label" for="row1-col4"></label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Containers</th>
+                                    <td>
+                                        <div class="form-check">
+                                            <input id="row2-col1" class="form-check-input" type="radio" name="radioGroup2">
+                                            <label class="form-check-label" for="row2-col1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check">
+                                            <input id="row2-col2" class="form-check-input" type="radio" name="radioGroup2">
+                                            <label class="form-check-label" for="row2-col2"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check">
+                                            <input id="row2-col3" class="form-check-input" type="radio" name="radioGroup2">
+                                            <label class="form-check-label" for="row2-col3"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check">
+                                            <input id="row2-col4" class="form-check-input" type="radio" name="radioGroup2">
+                                            <label class="form-check-label" for="row2-col4"></label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Kubernetes</th>
+                                    <td>
+                                        <div class="form-check">
+                                            <input id="row3-col1" class="form-check-input" type="radio" name="radioGroup3">
+                                            <label class="form-check-label" for="row3-col1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check">
+                                            <input id="row3-col2" class="form-check-input" type="radio" name="radioGroup3">
+                                            <label class="form-check-label" for="row3-col2"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check">
+                                            <input id="row3-col3" class="form-check-input" type="radio" name="radioGroup3">
+                                            <label class="form-check-label" for="row3-col3"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check">
+                                            <input id="row3-col4" class="form-check-input" type="radio" name="radioGroup3">
+                                            <label class="form-check-label" for="row3-col4"></label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Service meshes</th>
+                                    <td>
+                                        <div class="form-check">
+                                            <input id="row4-col1" class="form-check-input" type="radio" name="radioGroup4">
+                                            <label class="form-check-label" for="row4-col1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check">
+                                            <input id="row4-col2" class="form-check-input" type="radio" name="radioGroup4">
+                                            <label class="form-check-label" for="row4-col2"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check">
+                                            <input id="row4-col3" class="form-check-input" type="radio" name="radioGroup4">
+                                            <label class="form-check-label" for="row4-col3"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check">
+                                            <input id="row4-col4" class="form-check-input" type="radio" name="radioGroup4">
+                                            <label class="form-check-label" for="row4-col4"></label>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="row form-row border border-primary">
+                    <div class="col">
+                        <button id="" class="btn btn-info btn-lg">Submit</button>
+                    </div>
                 </div>
             </div>
         </section>
