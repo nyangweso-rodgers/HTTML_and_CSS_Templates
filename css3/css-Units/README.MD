@@ -1,6 +1,20 @@
 # css Units
 
 ## Table of Contents
+- css Units
+    1. Absolute Units
+       1. [`px` unit](https://github.com/nyangweso-rodgers/Web-Applications/tree/main/css3/css-Units/px-Unit)
+       2. [`%` Unit](https://github.com/nyangweso-rodgers/Web-Applications/tree/main/css3/css-Units/percentage-Unit)
+
+
+    2. Relative Units
+       1. [`em` Unit](https://github.com/nyangweso-rodgers/Web-Applications/tree/main/css3/css-Units/em-Unit)
+       2. [`rem` Unit](https://github.com/nyangweso-rodgers/Web-Applications/tree/main/css3/css-Units/rem-Unit)
+       3. [`vh` Unit](https://github.com/nyangweso-rodgers/Web-Applications/tree/main/css3/css-Units/vh-Unit)
+       4. [`vw` Unit](https://github.com/nyangweso-rodgers/Web-Applications/tree/main/css3/css-Units/vw-Unit)
+
+- [Further Reading]()
+    1. [Hashnode - CSS for Beginners Part 4 (CSS Units + Challenges)](https://blog.amenas.me/css-for-beginners-part-4-css-units-challenges)
 
 # CSS Units
 * __CSS Unit__ determines the size of a property you are setting for an element of its content.
@@ -10,7 +24,6 @@
 
     Unit | Description
     |---------------------- | -------------------- |
-    `px` | 1px = 1/96th of 1 inch (96px = 1 inch)
     `pt` | 1pt = 1/72th of 1 inch
     `mm` | 1mm = 1/10th of 1cm
     `cm` | Centimeters
@@ -22,16 +35,6 @@
   
     Unit | Description | Use Case 
     |---------------------- | -------------------- | -------------------- |
-    `rem` | relative to the font size of the root element (`html`) | particularly useful for setting font sizes and overall layout proportions that adapt to different screen sizes. They provide a responsive design that adjusts to changes in the root font size.
-    `em` | Relative to the font size of the element | can be useful for creating proportional spacing within specific elements. However, it's important to note that using em units can lead to compounding effects when nesting elements with different font sizes. Careful consideration and testing are required to ensure desired results.
-    `vh` | Relative to 1% of the viewport's height
-    `vw` | Relative to 1% of the viewport's width
-    `%` | Relative to 1% of the parent element
     `vmin` | Relative to the viewport's smaller dimension, 1vmin = max(1vh, 1vw)
     `vmax` | Relative to the viewport's larger dimension, vmax = max(1vh, 1vw)
     `ch` | Relative to the width of the glyph "O" of the element's font
-
-* `vh`/`vw` (`viewport height`/`width`): These units are based on the size of the `viewport` and are particularly useful for achieving fluid layouts that adapt to different screen sizes. `vh` and `vw` units are commonly used for setting `font sizes`, ``padding``, and margin when you want elements to scale proportionally with the viewport dimensions. They are especially suitable for full-height or full-width elements.
-
-# Viewport Height(`vh`)
-* If we take `1vh` that means we take `1%` of the browser's height...
