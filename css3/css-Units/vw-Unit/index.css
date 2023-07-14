@@ -1,0 +1,12 @@
+
+
+.box-one {
+    background-color: lightblue;
+    width: 400px;
+    height: 400px;
+}
+
+.box-two {
+    background-color: yellowgreen;
+    width: 50vw; /* means 50% width of the browser */
+}
