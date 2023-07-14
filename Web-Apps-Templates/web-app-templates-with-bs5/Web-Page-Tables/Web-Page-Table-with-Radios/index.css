@@ -1,0 +1,32 @@
+body {
+    font-family: "Trirong", serif;
+    font-size: 18px;
+    /*line-height: 1.9;*/
+    height: 100vh;
+    background-color: #ACC7B4;
+}
+
+.navbar {
+    background-color: #1E4174;
+}
+
+.navbar span {
+    color: #fff;
+    font-size: 24px;
+}
+
+.form-section {
+    padding: 40px 0px;
+}
+
+.form-section-one {
+   /* background-color: #ACC7B4; */  
+}
+
+.form-section-two {
+    background-color: #F5D042;
+}
+
+.form-section-three {
+    background-color: #1E4174;
+}
