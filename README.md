@@ -30,6 +30,7 @@
   1. [dev community - Different Types of Websites](https://dev.to/anuradha9712/different-types-of-websites-4im1)
   2. [freeCodeCamp - How Web Pages Get Rendered on the Browser – Different Methods Explained](https://www.freecodecamp.org/news/web-page-rendering-on-the-browser-different-methods/)
   3. [freeCodeCamp - Server Side Rendering in JavaScript – SSR vs CSR Explained](https://www.freecodecamp.org/news/server-side-rendering-javascript/)
+  4. [Forbes - How Much Does A Website Cost? (2023 Guide)](https://www.forbes.com/advisor/business/software/how-much-does-a-website-cost/)
 
 # Different Types of Websites
 # Type 1: Static Website
