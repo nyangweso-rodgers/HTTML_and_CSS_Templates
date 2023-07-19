@@ -15,17 +15,23 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div class="container-fluid border border-2 border-warning text-center">
-            <div class="row">
-                <h2>Digital Time Display App</h2>
+        <header class="header">
+            <nav class="navbar navbar-lg bg-success">
+                <div class="container">
+                    <a class="navbar-brand text-white" href="">Digital Time Display App</a>
+                </div>
+            </nav>
+        </header>
+        <section class="section">
+            <div class="container-fluid text-center">
+                <div class="row">
+                    <h2>Display Current Date & Time</h2>
+                    <div class="h3" id="displayDateTime"></div>
+                    <div class="h3" id="displayDate"></div>
+                    <div class="h3" id="displayTime"></div>
+                </div>
             </div>
-            <div class="row border border-primary p-5 my-2">
-                <h2>Current Date & Time</h2>
-                <div class="h3" id="displayDateTime"></div>
-                <div class="h3" id="displayDate"></div>
-                <div class="h3" id="displayTime"></div>
-            </div>
-        </div>
+        </section>
         <script src="index.js" async defer></script>
     </body>
 </html>
