@@ -1,11 +1,15 @@
 
 body {
-    background: #E7CEA6;
     font-family: "Trirong", serif;
 }
 
 h2 {
     font-size: 8vw;
+}
+
+.section {
+    background: #E7CEA6;
+    padding: 40px 0;
 }
 .container {
     align-items: center;
