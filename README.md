@@ -141,3 +141,10 @@
 8. [Google Fonts](https://marketplace.visualstudio.com/items?itemName=lior-chamla.google-fonts) - Browse google fonts from VSCode and also get the CSS import instantly.
 9. [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 10. [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
+
+# Free Hosting Sites for Web Applications
+1. [Firebase](https://firebase.google.com/docs/hosting)
+2. [Netlify](https://www.netlify.com/?attr=homepage-modal)
+3. [Render](https://render.com/)
+4. [Surge](https://surge.sh/)
+5. [Vercel](https://vercel.com/) 
