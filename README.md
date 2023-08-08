@@ -120,6 +120,8 @@
 5. [Ucraft](https://www.ucraft.com/)
 6. [Looka](https://looka.com/)
 
+# Web Design Rules and Tips
+1. [Medium - 16 little UI design rules that make a big impact](https://uxplanet.org/16-ui-design-tips-ba2e7524d203)
 # Free Sites to Download Images For a Website
 1. [unsplash.com](https://unsplash.com/)
 2. [pexels.com](https://www.pexels.com/)
