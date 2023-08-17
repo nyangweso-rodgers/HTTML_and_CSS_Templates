@@ -5,7 +5,10 @@
     left: 0;
     width: 100%;
     padding: 20px 0;
+    font-size: 1.2em;
+    letter-spacing: 1px;
 }
+
 
 .nav-link, .navbar-brand {
     color: #fff;
@@ -19,5 +22,5 @@
 
 .section {
     padding: 880px 0;
-    border: 2px solid red;
+    background-color: #adc178;
 }
