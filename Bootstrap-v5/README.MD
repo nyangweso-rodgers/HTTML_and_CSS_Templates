@@ -63,7 +63,10 @@
             <link rel="stylesheet" href="index.css">
         </head>
         <body>
-            
+            <header>
+              <nav></nav>
+            </header>
+            <section></section>
             <script src="index.js" async defer></script>
         </body>
       </html>
