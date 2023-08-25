@@ -1,6 +1,0 @@
-.parent {
-    border: 2px dotted blue;
-    padding: 10px;
-    display: grid;
-    place-content: center;
-}
