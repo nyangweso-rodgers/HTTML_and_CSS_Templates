@@ -1,0 +1,4 @@
+
+
+one = document.getElementById('one');
+
