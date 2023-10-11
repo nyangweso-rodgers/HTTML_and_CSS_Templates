@@ -1,0 +1,36 @@
+footer {
+    
+}
+.social {
+    text-align: center;
+    padding: 10px 0;
+}
+.social > a {
+    text-decoration: none;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 4px;
+    opacity: 1;
+    padding: 8px;
+}
+
+.bi-linkedin {
+    background-color: #007bb5;
+    color: #fff
+}
+
+.bi-github {
+    background-color: #333333;
+    color: #fff;
+}
+
+.bi-twitter-x {
+    background-color: #1da1f2;
+    color: #fff;
+}
+
+.bi:hover {
+    opacity: 1;
+}
