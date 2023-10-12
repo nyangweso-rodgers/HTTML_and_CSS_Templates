@@ -1,19 +1,46 @@
-footer {
-    
+.footer-section {
+    padding: 20px 0;
+    border: 1px solid #000;
 }
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright > div {
+    margin: 10px 0;
+}
+
+.navbar-brand {
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.underlineBorder {
+    height: 3px;
+    background-color: #F5D042;
+    width: 210px;
+    margin: 0 0 0 10px;
+}
+
+.contact, .social {
+    margin: 10px 0;
+}
+
 .social {
+    display: flex;
+    flex-wrap: nowrap;
     text-align: center;
-    padding: 10px 0;
 }
 .social > a {
-    text-decoration: none;
-    font-size: 12px;
-    display: inline-block;
-    text-align: center;
+    margin: 6px;
+    text-align:center;
+    font-size: 14px;
+    padding: 16px;
     border-radius: 50%;
-    margin: 0 4px;
+    text-decoration: none;
     opacity: 1;
-    padding: 8px;
 }
 
 .bi-linkedin {
@@ -27,7 +54,7 @@ footer {
 }
 
 .bi-twitter-x {
-    background-color: #1da1f2;
+    background-color: #000;
     color: #fff;
 }
 
