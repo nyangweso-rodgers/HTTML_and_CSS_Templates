@@ -1,0 +1,16 @@
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: DodgerBlue;
+    height: 300px;
+}
+
+section > div {
+    background-color: #f1f1f1;
+    height: 100px;
+    width: 100px;
+    color: #fff;
+}
