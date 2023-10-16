@@ -1,0 +1,76 @@
+body {
+    height: 100%;
+    font-family: "Trirong", serif;
+}
+
+main {
+    padding: 15%;
+    background-color: #ACC7B4;
+}
+
+
+.footer-section {
+    padding: 20px 0;
+    border: 1px solid #000;
+    margin-bottom: 0px;
+    background-color: #DCE2F0;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright > div {
+    margin: 10px 0;
+}
+
+.navbar-brand {
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.underlineBorder {
+    height: 3px;
+    background-color: #F5D042;
+    width: 210px;
+    margin: 0 0 0 10px;
+}
+
+.contact, .social {
+    margin: 10px 0;
+}
+
+.social {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.bi {
+    padding: 18px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    /* uncomment to get rounded */
+    /*border-radius: 50%;*/
+}
+
+.bi:hover {
+    opacity: 0.7;
+}
+
+.bi-linkedin {
+    background-color: #007bb5;
+    color: #fff
+}
+
+.bi-github {
+    background-color: #333333;
+    color: #fff;
+}
+
+.bi-twitter-x {
+    background-color: #000;
+    color: #fff;
+}
