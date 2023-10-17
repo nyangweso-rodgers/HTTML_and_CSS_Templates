@@ -1,9 +1,14 @@
 body {
   font-family: "Trirong", serif;
+  height: 100vh;
 }
+nav {
+}
+section {
+}
+
 footer {
   background-color: #dce2f0;
-  padding: 20px 0;
   border: 1px solid #de2f2f;
 }
 
