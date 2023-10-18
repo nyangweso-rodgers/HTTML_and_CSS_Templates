@@ -2,14 +2,23 @@ body {
   font-family: "Trirong", serif;
   height: 100vh;
 }
-nav {
-}
-section {
-}
 
 footer {
   background-color: #dce2f0;
   border: 1px solid #de2f2f;
+}
+
+.footer-first-row-container {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.underline-footer-header {
+  background-color: #3498db;
+  height: 4px;
+  width: 240px;
+  margin-bottom: 20px;
+  margin: 10px auto;
 }
 
 .form-col {
@@ -51,17 +60,17 @@ input[type="submit"]:hover {
   background-color: #45a049;
 }
 
-.right-contact-col {
+.contact-and-social-media-col {
   display: flex;
   flex-direction: column;
 }
 
-.right-contact-col > div {
+.contact-and-social-media-col > div {
   margin: 8px;
 }
 
 .contact-wrapper,
-.social-wrapper {
+.social-media-wrapper {
   display: flex;
 }
 
@@ -70,7 +79,7 @@ input[type="submit"]:hover {
 }
 
 .contact-wrapper > div,
-.social-wrapper > a {
+.social-media-wrapper > a {
   margin: 6px;
 }
 
