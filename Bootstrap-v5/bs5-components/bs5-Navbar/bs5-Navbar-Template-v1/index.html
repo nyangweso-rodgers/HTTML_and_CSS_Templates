@@ -24,48 +24,60 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="">
-      <nav class="navbar navbar-expand-md border border-warning">
-        <div class="container border border-danger">
-          <a class="navbar-brand border" href="#">Rodgers Nyangweso</a>
+    <header>
+      <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Rodgers Nyangweso</a>
           <button
-            class="navbar-toggler w-50"
+            class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarContent"
-            aria-controls=""
-            aria-expanded=""
-            aria-label=""
+            data-bs-target="#navbarCollapseContent"
+            aria-controls="#navbarCollapseContent"
+            aria-expanded="false"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div id="navbarContent" class="collapse navbar-collapse border">
+          <div id="navbarCollapseContent" class="collapse navbar-collapse">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
               <li class="nav-item dropdown">
                 <a
+                  href="#"
                   id="navbarDropdown"
                   class="nav-link dropdown-toggle"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
-                  href="#"
-                  >Dropdown</a
+                  >Blog</a
                 >
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">First Dropdown</a></li>
-                  <li><a class="dropdown-item" href="#">Second Dropdown</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Third Dropdown</a></li>
-                </ul>
+                <!-- dropdown menu -->
+                <div
+                  class="dropdown-menu mega-menu"
+                  aria-labelledby="navbarDropdown"
+                  data-bs-toggle="dropdown"
+                >
+                  <div class="container subnav-container">
+                    <div class="row subnav-content">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item list-group-item-action">
+                          <a class="nav-link" href="#">An item</a>
+                        </li>
+                        <li class="list-group-item list-group-item-action">
+                          <a class="nav-link" href="#">A second item</a>
+                        </li>
+                        <li class="list-group-item list-group-item-action">
+                          <a class="nav-link" href="#">A third item</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
           </div>
@@ -73,6 +85,5 @@
       </nav>
     </header>
     <main></main>
-    <script src="" async defer></script>
   </body>
 </html>
