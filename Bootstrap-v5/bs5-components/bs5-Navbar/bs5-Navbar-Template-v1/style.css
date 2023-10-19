@@ -3,38 +3,41 @@ body {
   line-height: 1.8;
 }
 
-nav {
-  background-color: #192655;
-  font-size: 20px;
+header {
+  width: 100%;
+  padding: 16px;
+}
+
+nav, .dropdown-menu {
+  /*background-color: #192655;*/
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("") center no-repeat;
+  /*font-size: 20px;*/
+  font-size: 1.2rem;
   margin-bottom: 0;
   letter-spacing: 2px;
   opacity: 0.9;
+  background-size: cover;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  padding: 12px;
+  /*font-weight: bold;*/
+  font-weight: 400;
 }
 
 .navbar li a,
 .navbar-brand {
   color: #fff;
-}
-
-.nav-item a {
-  font-size: 20px;
-  padding: 12px 16px;
-}
-
-nav a.navbar-brand {
-  font-size: 1.5em;
-  padding: 12px;
-  font-weight: bold;
+  padding: 1rem 0;
+  margin: 0 0.8rem;
 }
 
 .navbar-toggler {
   background-color: #fff;
   width: 80px;
   border-color: transparent;
-}
-
-.dropdown-menu {
-  background-color: #192655;
 }
 
 nav a:hover,
