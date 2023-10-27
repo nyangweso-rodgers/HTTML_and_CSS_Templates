@@ -8,6 +8,40 @@
 # Overview Of RWD 
 * `RWD` is a method of creating websites that provide an optimal viewing experience across a wide range of devices, including desktop computers and mobile phones.
 
+## `css` Breakpoints
+```css
+    /* Mobile */
+    @media (max-width: 480px) {
+        // styles
+    }
+
+    /* Extra small devices */
+    @media (min-width: 481px) and (max-width: 767px) {
+        // styles
+    }
+
+    /* small tablets */
+    @media (min-width: 768px) and (max-width: 991px) {
+        // styles
+    }
+
+    /* large tablets/laptops */
+    @media (min-width: 992px) and (max-width: 1199px) {
+        // styles
+    }
+
+    /* desktops */
+    @media (min-width: 1200px) and (max-width:1919px) {
+        // styles
+    }
+
+    /* extra large screens */
+    @media (min-width:1920px) {
+        // styles
+    }
+```
+
+
 # CSS Tips for Making Responsive Designs
 # CSS Tip 1: Use Fluid Layouts
 * Instead of using `fixed-width` layouts, which can cause horizontal scrolling on smaller screens, use `percentage-based` widths to create fluid layouts that adapt to any screen size.
