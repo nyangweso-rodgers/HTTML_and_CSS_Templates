@@ -1,4 +1,0 @@
-
-
-one = document.getElementById('one');
-
