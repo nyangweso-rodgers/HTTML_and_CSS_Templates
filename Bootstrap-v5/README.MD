@@ -1,22 +1,6 @@
-# Dev with Bootstrap 5
+# Bootstrap 5
 
 ## Table Of Contents
-
-- [Introduction to Bootstrap 5](# Introduction-to-Bootstrap-5)
-
-  - Bootstrap 5 CDN
-  - HTML Boilerplatte with Bootstrap 5
-
-- [Bootstrap 5 - Layout]()
-
-  - [Grid System]()
-
-- [Bootstrap 5 - Components]()
-
-  - [Cards]()
-
-- [Further Reading]()
-  - [MDB - Material Design for Bootstrap 5 & Vanilla JS](https://mdbootstrap.com/docs/standard/)
 
 # Introduction to Bootstrap 5
 
@@ -94,7 +78,10 @@
       </nav>
     </header>
     <section></section>
-    <script src="index.js" async defer></script>
+    <script src="script.js" async defer></script>
   </body>
 </html>
 ```
+
+# Resources
+1. [MDB - Material Design for Bootstrap 5 & Vanilla JS](https://mdbootstrap.com/docs/standard/)
