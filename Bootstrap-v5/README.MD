@@ -77,11 +77,24 @@
         </div>
       </nav>
     </header>
-    <section></section>
+    <section class=""></section>
     <script src="script.js" async defer></script>
   </body>
 </html>
 ```
 
+## CSS Template
+
+```css
+body {
+  font-family: "Trirong", serif;
+}
+section {
+  border: 2px dotted #ff004d;
+  padding: 40px 0;
+}
+```
+
 # Resources
-1. [MDB - Material Design for Bootstrap 5 & Vanilla JS](https://mdbootstrap.com/docs/standard/)
+
+1. [MDB - Bootstrap 5](https://mdbootstrap.com/docs/standard/layout/grid/)
