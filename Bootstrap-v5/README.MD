@@ -77,7 +77,12 @@
         </div>
       </nav>
     </header>
-    <section class=""></section>
+    <main>
+      <section class=""></section>
+      <section class=""></section>
+    </main>
+    <footer class=""></footer>
+
     <script src="script.js" async defer></script>
   </body>
 </html>
@@ -94,6 +99,8 @@ section {
   padding: 40px 0;
 }
 ```
+
+# Bootstrap 5 Icons
 
 # Resources
 
