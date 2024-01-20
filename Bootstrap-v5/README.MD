@@ -53,6 +53,11 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Sofia|Trirong|Actor"
     />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/592084ced4.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Bootstrap icons -->
     <link
