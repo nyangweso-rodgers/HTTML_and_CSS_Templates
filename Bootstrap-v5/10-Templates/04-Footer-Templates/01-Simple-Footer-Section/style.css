@@ -1,0 +1,30 @@
+body {
+  font-family: "Trirong", serif;
+}
+section {
+  border: 2px dotted #ff004d;
+  padding: 40px 0;
+}
+
+footer {
+  font-size: 16px;
+  background-color: #f1f1f1;
+  padding: 20px 0;
+}
+
+.social-media-container,
+.copyright-container,
+.cookier-setting-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.social-media-container > div,
+.copyright-container > div,
+.cookier-setting-container > div {
+  margin: 10px;
+  text-align: center;
+}
