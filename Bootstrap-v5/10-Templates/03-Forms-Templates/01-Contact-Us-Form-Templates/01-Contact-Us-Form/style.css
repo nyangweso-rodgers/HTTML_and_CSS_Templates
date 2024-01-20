@@ -1,0 +1,44 @@
+body {
+  font-family: "Trirong", serif;
+}
+main {
+  border: 2px dotted #ff004d;
+  padding: 40px 0;
+  background: #f1f1f1;
+  color: #434343;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.form-container {
+  margin: 10px 0;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+footer {
+  font-size: 16px;
+  background-color: #f1f1f1;
+  padding: 20px 0;
+}
+
+.social-media-container,
+.copyright-container,
+.cookier-setting-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.social-media-container > div,
+.copyright-container > div,
+.cookier-setting-container > div {
+  margin: 10px;
+  text-align: center;
+}
