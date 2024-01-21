@@ -184,30 +184,42 @@
 - To use the Free **Font Awesome 5** icons, you can choose to download the Font Awesome library, or you can sign up for an account at Font Awesome, and get a code (called **KIT CODE**) to use when you add Font Awesome to your web page.
 - Using **Font Awesome 5**
   - New in **Font Awesome 5** is the `fas` prefix, **Font Awesome 4** uses `fa`. The `s` in `fas` stands for _solid_, and some icons also have a _regular_ mode, specified by using the prefix `far`
+- Font Awesome CDN:
+  ```html
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  />
+  ```
+- Usage:
 
-```html
-<!DOCTYPE html>
+  ```html
+  <!DOCTYPE html>
 
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/592084ced4.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="" />
-  </head>
-  <body>
-    <i class="fas fa-clock"></i>
-    <script src="" async defer></script>
-  </body>
-</html>
-```
+  <html>
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <title></title>
+      <meta name="description" content="" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <!-- Font Awesome -->
+      <script
+        src="https://kit.fontawesome.com/592084ced4.js"
+        crossorigin="anonymous"
+      ></script>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      />
+      <link rel="stylesheet" href="" />
+    </head>
+    <body>
+      <i class="fas fa-clock"></i>
+      <script src="" async defer></script>
+    </body>
+  </html>
+  ```
 
 ## 2. Bootstrap-v5 Icons
 
