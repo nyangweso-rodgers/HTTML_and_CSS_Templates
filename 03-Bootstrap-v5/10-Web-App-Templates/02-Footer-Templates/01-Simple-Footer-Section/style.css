@@ -28,3 +28,17 @@ footer {
   margin: 10px;
   text-align: center;
 }
+
+.fa-brands {
+  text-decoration: none;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.fa-github, .fa-x-twitter {
+  color: #333333;
+}
+
+.fa-hashnode {
+  color: #2563eb;
+}

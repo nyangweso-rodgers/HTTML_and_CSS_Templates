@@ -12,20 +12,40 @@ footer {
   padding: 20px 0;
 }
 
-.footer-nav-elements-container,
-.social-media-container {
+.footer-box {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: center;
+}
+.footer-box > div {
+  padding: 8px;
 }
 
-.footer-nav-elements-container > div {
+.social-media-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-media-box > div {
+  padding: 4px;
+}
+
+.fa-brands {
+  text-decoration: none;
+  font-size: 2rem;
   text-align: center;
-  margin: 10px;
 }
 
-.social-media-container > div {
-    text-align: center;
+.fa-brands:hover {
+  opacity: 0.7;
+}
+
+.fa-github,
+.fa-x-twitter {
+  color: #333333;
+}
+
+.fa-hashnode {
+  color: #2563eb;
 }
