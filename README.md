@@ -2,96 +2,45 @@
 
 ## Table of Contents
 
-- [Different Types of Websites](#Different-Types-of-Websites)
+1. [Project Requirements](#Project-Requirements)
 
-  - Type 1 - Static Website
-  - Type 2 - Single Page Applications
-  - Type 3 - Server - Side Rendering
+# Project Requirements
 
-- [css3](https://github.com/nyangweso-rodgers/Web-Applications/tree/main/css3)
+## VS Code Extensions
 
-  1. [css Selectors](https://github.com/nyangweso-rodgers/Web-Applications/tree/main/css3/css-Selectors)
-  2. [css Fonts](https://github.com/nyangweso-rodgers/Web-Applications/tree/main/css3/css-Fonts)
-  3. [css Display](https://github.com/nyangweso-rodgers/Web-Applications/tree/main/css3/css-Display)
-     1. css Flexbox
-     2. css Grid
+1. [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+   - Improve your code commenting by annotating with alert, informational, TODOs, and more!
+2. [Error Lens]()
+   - improves highlighting of error messages and warnings.
+3. [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
+   - Take beautiful screenshots of your code
+   - To snap a shot of your code, use (`Ctrl+Shift+P` on Windows and Linux, `Cmd+Shift+P `on OS X) and search for `CodeSnap`. Then select the area of your code to screenshot, adjust the width, and click the shutter button. You can also take a snapshot by selecting code, right clicking, and selecting CodeSnap.
+4. [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
+   - Mark lines and jump to them
+   - These lines are noted with a blue bookmark icon. Bookmarks can be organized and named to allow for quick reference.
+5. [CodiumAI - Integrity Agent powered by GPT-3.5&4](https://marketplace.visualstudio.com/items?itemName=Codium.codium)
+6. [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+   - With GitLens, you can gain powerful insights into your repositories directly in VSCode. Annotations are integrated throughout the editor, displaying tons of Git information.
+7. Icons Themes:
+   - [Material Theme Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme-icons)
+   - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+   - [file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
+8. [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+   - colorful extension that you can use to make indentation comprehensible, aiding in maintaining well-organized and properly indented code.
+   - Each indent is marked with a different color, alternating between 4 different colors.
+   - This extension is particularly useful for languages that rely heavily on indentation such as YAML or Python.
+9. [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+   - file path productivity tool. It has intelligent auto-completion that dynamically suggests file paths and directory names as you type. It can minimize errors due to incomplete or wrong file paths.
+10. [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
+    - Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
+11. [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+    - Code formatter using prettier
+12. [Tabnine](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
+    - is an free AI coding assistant. It can help to increase your productivity by providing real-time code completions.
+13. [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+    - highlight TODOs, FIXMEs, and any keywords, annotations..
 
-- [Bootstrap 5](https://github.com/nyangweso-rodgers/Web-Applications/tree/main/Bootstrap-v5)
-
-  1. [Bootstrap 5 Layout](https://github.com/nyangweso-rodgers/Web-Applications/tree/main/Bootstrap-v5/bs5-layout)
-  2. [Bootstrap 5 Components](https://github.com/nyangweso-rodgers/Web-Applications/tree/main/Bootstrap-v5/bs5-components)
-
-- [Web Applications]()
-
-  1. [Coming Soon Web App](https://github.com/nyangweso-rodgers/Web-Applications/tree/main/Web-Apps/Coming-Soon-Web-App)
-  2. [Digital Time App](https://github.com/nyangweso-rodgers/Web-Applications/tree/main/Web-Apps/Digital-Time-Display-App)
-  3. [Survey Apps](https://github.com/nyangweso-rodgers/Web-Applications/tree/main/Web-Apps/Survey-App)
-
-- [Static Web App Templates]()
-
-  1. [Web Page Layout]()
-
-- [Further Reading]()
-  1. [dev community - Different Types of Websites](https://dev.to/anuradha9712/different-types-of-websites-4im1)
-  2. [freeCodeCamp - How Web Pages Get Rendered on the Browser – Different Methods Explained](https://www.freecodecamp.org/news/web-page-rendering-on-the-browser-different-methods/)
-  3. [freeCodeCamp - Server Side Rendering in JavaScript – SSR vs CSR Explained](https://www.freecodecamp.org/news/server-side-rendering-javascript/)
-  4. [Forbes - How Much Does A Website Cost? (2023 Guide)](https://www.forbes.com/advisor/business/software/how-much-does-a-website-cost/)
-
-# Different Types of Websites
-
-# Type 1: Static Website
-
-- Made of HTML, CSS, and JavaScript.
-- We have to upload HTML pages to CDN to host them on the web and whenever we request those pages in a browser it would return them to us.
-- So for every new page, we made a new request to the server.
-
-# Type 2: Single Page Applications (SPA) or Client Side Rendering (CSR)
-
-- A **SPA** is an app that works inside a browser. **SPAs** are structured as a single `HTML` page that has no preloaded content.
-- Typical React/ Vue applications come under this category.
-
-# How CSR Works
-
-1. An `HTTP` request is made to the server.
-2. The server receives the request, and responds by sending an empty `HTML` shell to the client along with a bunch of bundled `JavaScript`.
-3. The client receives the empty `HTML` shell, and proceeds to process all of the `JavaScript`.
-4. The `JavaScript` modifies the `DOM` extensively, which renders the final `HTML` for the end user.
-
-# Type 3: Server-Side Rendering (SSR)
-
-- `HTML` pages are built on the server-side after every page request.
-- Server gets the data from various sources like databases, aggregates them into template files, and then sends the resulting `HTML` file back to the browser.
-- `PHP` or `Nodejs` with templating engines like `EJS`, `jade`, `hbs` comes under this category.
-
-# How SSR Works
-
-1. An `HTTP` request is made to the server.
-2. The server receives the request, and processes all (or most of) the necessary code right then and there.
-3. The end result is a fully formed and easily consumed HTML page that can be sent to the client’s browser via the server’s response.
-
-# Techniques Used to Check for SSR
-
-1. **Check the page source**:
-
-   - If the `HTML` code is complete with all the content, including the `main` body, `images`, `text`, and so on, the site is likely using **SSR**.
-   - On the other hand, if the `HTML` code is bare-bones, then it requires `JavaScript` to render the content. In this case, it's probably not using **SSR**.
-
-2. **Check Google Cache**:
-
-   - An easy way to determine if your content is rendering server side is to check the Google Cache.
-   - Simply type in the URL you want to inspect like this with the `site:` operator into Google.
-   - Generally speaking, anything you can visually see is server side rendering. If it's rendering with Javascript, more than likely you won't be able to see it:
-
-3. **Disable `JavaScript`**:
-   - You can also test if a site is using **SSR** by disabling `JavaScript` on your browser. If the website's content is still visible without `JavaScript`, it is likely using **SSR**. If the website appears blank, it is not using **SSR**.
-
-# Benefits of SSR
-
-1. The main benefit of **SSR** is page load speed. Page load speed is an important metric for user experience, and subsequently an important aspect of technical SEO. Google wants to consume pages fast, too.
-
-2. When a page is rendered into `HTML` on the server, all of the heavy-lifting is taken care of. For this reason, when the response makes it to the client’s browser, there isn’t much work left for the browser to display the page. It’s ready to go upon delivery.
-
-# Best Color Websites for Front-End Developers
+## Color Websites for Front-End Developers
 
 1. [Color Hunt](https://colorhunt.co/)
 2. [Grabient](https://www.grabient.com/)
@@ -99,7 +48,7 @@
 4. [ColorKit](https://colorkit.co/palette/809bce-95b8d1-b8e0d4-d6eadf-eac4d5/)
 5. [Khroma](https://www.khroma.co/train)
 
-# How to know which Frameworks Website is built on.
+## How to know which Frameworks Website is built on.
 
 - [Wappalyzer](https://www.wappalyzer.com/) - Find out the technology stack of any website. Create lists of websites that use certain technologies, with company and contact details. Use our tools for lead generation, market analysis and competitor research.
 
@@ -116,6 +65,58 @@
 4. **WebPageTest** - This tool allows you to test your website's speed and performance from multiple locations around the world, and provides a detailed report on its performance, including load time, page size, and other metrics.
 
 5. **Kinsta Page Speed** - This tool provides a detailed analysis of your website's speed and performance, including load time, page size, and other performance metrics. It also offers actionable recommendations for improving your website's speed and performance.
+
+# Different Types of Websites
+
+## 1. Static Website
+
+- Made of HTML, CSS, and JavaScript.
+- We have to upload HTML pages to CDN to host them on the web and whenever we request those pages in a browser it would return them to us.
+- So for every new page, we made a new request to the server.
+
+## 2. Single Page Applications (SPA) or Client Side Rendering (CSR)
+
+- A **SPA** is an app that works inside a browser. **SPAs** are structured as a single `HTML` page that has no preloaded content.
+- Typical React/ Vue applications come under this category.
+
+- How **CSR** Works:
+
+  - An `HTTP` request is made to the server.
+  - The server receives the request, and responds by sending an empty `HTML` shell to the client along with a bunch of bundled `JavaScript`
+  - The client receives the empty `HTML` shell, and proceeds to process all of the `JavaScript`.
+  - The `JavaScript` modifies the `DOM` extensively, which renders the final `HTML` for the end user.
+
+## 3. Server-Side Rendering (SSR)
+
+- `HTML` pages are built on the server-side after every page request.
+- Server gets the data from various sources like databases, aggregates them into template files, and then sends the resulting `HTML` file back to the browser.
+- `PHP` or `Nodejs` with templating engines like `EJS`, `jade`, `hbs` comes under this category.
+
+- How **SSR** Works
+
+  - An `HTTP` request is made to the server.
+  - The server receives the request, and processes all (or most of) the necessary code right then and there.
+  - The end result is a fully formed and easily consumed HTML page that can be sent to the client’s browser via the server’s response.
+
+- Techniques Used to Check for **SSR**:
+
+  1. **Check the page source**:
+
+     - If the `HTML` code is complete with all the content, including the `main` body, `images`, `text`, and so on, the site is likely using **SSR**.
+     - On the other hand, if the `HTML` code is bare-bones, then it requires `JavaScript` to render the content. In this case, it's probably not using **SSR**.
+
+  2. **Check Google Cache**:
+
+     - An easy way to determine if your content is rendering server side is to check the Google Cache.
+     - Simply type in the URL you want to inspect like this with the `site:` operator into Google.
+     - Generally speaking, anything you can visually see is server side rendering. If it's rendering with Javascript, more than likely you won't be able to see it:
+
+  3. **Disable `JavaScript`**:
+     - You can also test if a site is using **SSR** by disabling `JavaScript` on your browser. If the website's content is still visible without `JavaScript`, it is likely using **SSR**. If the website appears blank, it is not using **SSR**.
+
+- **Benefits of SSR**:
+  - The main benefit of **SSR** is page load speed. Page load speed is an important metric for user experience, and subsequently an important aspect of technical SEO. Google wants to consume pages fast, too.
+  - When a page is rendered into `HTML` on the server, all of the heavy-lifting is taken care of. For this reason, when the response makes it to the client’s browser, there isn’t much work left for the browser to display the page. It’s ready to go upon delivery.
 
 # Websites to Improve on Frontend Skills
 
@@ -401,4 +402,9 @@
 
 # Resources
 
-1. [freeCodeCamp - How to Build Responsive Websites – Best Practices for Developers](https://www.freecodecamp.org/news/responsive-design-best-practices/)
+1. [freeCodeCamp - Visual Studio Code Extensions to Boost Your Productivity in 2024](https://www.freecodecamp.org/news/best-vscode-extensions/#path-intellisense)
+2. [freeCodeCamp - How to Build Responsive Websites – Best Practices for Developers](https://www.freecodecamp.org/news/responsive-design-best-practices/)
+3. [dev community - Different Types of Websites](https://dev.to/anuradha9712/different-types-of-websites-4im1)
+4. [freeCodeCamp - How Web Pages Get Rendered on the Browser – Different Methods Explained](https://www.freecodecamp.org/news/web-page-rendering-on-the-browser-different-methods/)
+5. [freeCodeCamp - Server Side Rendering in JavaScript – SSR vs CSR Explained](https://www.freecodecamp.org/news/server-side-rendering-javascript/)
+6. [Forbes - How Much Does A Website Cost? (2023 Guide)](https://www.forbes.com/advisor/business/software/how-much-does-a-website-cost/)
