@@ -1,0 +1,25 @@
+.container {
+  background-color: #000000;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background-color: #0077cc;
+  width: 50%;
+  height: 50%;
+}
+
+/*
+- Here, the box element is 50% the width and height of the parent container, so it takes up half of the container.
+- The container is 80% of the viewport by width and height. If you try to resize the browser, you will notice that the percentage is maintained. Similarly, the box within the container is 50% of the container by width and height.
+*/
