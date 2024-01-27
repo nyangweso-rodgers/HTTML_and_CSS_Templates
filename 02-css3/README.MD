@@ -157,6 +157,13 @@ p.demo {
   - `a:hover` MUST come after `a:link` and `a:visited` in the CSS definition in order to be effective!
   - `a:active` MUST come after `a:hover` in the CSS definition in order to be effective! Pseudo-class names are not case-sensitive.
 
+# CSS Fonts
+
+## Set `Font Size` with `em`
+
+- To allow users to resize the text (in the browser menu), many developers use `em` instead of `pixels`.
+- `1em` = `16px` = Default size in browsers.
+
 # Common CSS Mistakes
 
 ## 1. Not Using fallback fonts
