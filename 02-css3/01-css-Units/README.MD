@@ -31,3 +31,4 @@
 # Resources
 
 1. [Hashnode - CSS for Beginners Part 4 (CSS Units + Challenges)](https://blog.amenas.me/css-for-beginners-part-4-css-units-challenges)
+2. [freecodecamp - CSS Units – When to Use rem, em, px, and More](https://www.freecodecamp.org/news/css-units-when-to-use-each-one/)
