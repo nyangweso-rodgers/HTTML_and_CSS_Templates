@@ -1,0 +1,16 @@
+body {
+  font-size: 20px;
+}
+
+.container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+p {
+  font-size: 2em;
+  color: #0077cc;
+}
+
+/*The p element is set to 2em which means it is 2 times the font size of the parent element. 2 x 20 is 40px so the p element is 40px.*/
