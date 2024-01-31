@@ -1,0 +1,16 @@
+body {
+  font-family: "Trirong", serif;
+}
+main {
+  border: 2px dotted #ff004d;
+  padding: 40px 0;
+}
+
+.btn {
+  padding: 10px 30px;
+  background: pink;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+  color: #fff;
+}
