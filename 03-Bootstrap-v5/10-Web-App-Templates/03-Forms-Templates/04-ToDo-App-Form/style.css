@@ -1,0 +1,22 @@
+body {
+  font-family: "Trirong", serif;
+}
+main {
+  border: 2px dotted #ff004d;
+  padding: 40px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+}
