@@ -35,16 +35,109 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container">
+          <span class="navbar-brand">Modal Popup Form</span>
+        </div>
+      </nav>
+    </header>
     <main>
       <section class="">
         <div class="container">
           <div class="row">
-            <div class="app"><h4>ToDo App</h4></div>
+            <div class=""><h4>ToDo App</h4></div>
+          </div>
+          <div class="row">
+            <div class="">
+              <button
+                type="button"
+                id=""
+                class="btn btn-outline-info"
+                data-bs-toggle="modal"
+                data-bs-target="#modalFormToAddTasks"
+              >
+                Add Task
+              </button>
+              <!--Modal-->
+              <form
+                id="modalFormToAddTasks"
+                class="modal"
+                tabindex="-1"
+                aria-hidden="true"
+                aria-labelledby="modalLabel"
+                action=""
+              >
+                <div
+                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 id="modalLabel" class="modal-title">Add New Task</h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="modal-body-row">
+                        <label class="form-label" for="modalTitleInput"
+                          >Task Title</label
+                        ><input
+                          id="modalTitleInput"
+                          class="form-control"
+                          type="text"
+                        />
+                        <span id="titleError" class="error-message"></span>
+                      </div>
+                      <div class="modal-body-row">
+                        <label for="modalDueDateInput" class="form-label"
+                          >Due Date</label
+                        >
+                        <input
+                          id="modalDueDateInput"
+                          class="form-control"
+                          type="date"
+                        />
+                      </div>
+                      <div class="modal-body-row">
+                        <label for="modalDescriptionInput" class="form-label"
+                          >Description</label
+                        >
+                        <textarea
+                          id="modalDescriptionInput"
+                          class="form-control"
+                          rows="3"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        id="modalCloseButton"
+                        class="btn btn-outline-danger"
+                        type="button"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button
+                        id="modalSubmitButton"
+                        class="btn btn-outline-success"
+                        type="submit"
+                      >
+                        Submit
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </section>
     </main>
-
     <script src="script.js" async defer></script>
   </body>
 </html>
