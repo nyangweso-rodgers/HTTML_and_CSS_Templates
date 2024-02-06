@@ -6,6 +6,8 @@
 
 - We learn about form validation approach using JavaScript by building a simple ToDo App.
 
+![](./images/Modal-Popups-Form.png)
+
 # HTML
 
 - We use Bootstrap 5, [Navbar](https://getbootstrap.com/docs/5.0/components/navbar/) and [Modal](https://getbootstrap.com/docs/5.0/components/modal/) components to design the web page.
