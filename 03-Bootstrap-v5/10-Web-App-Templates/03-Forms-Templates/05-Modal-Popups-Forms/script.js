@@ -78,7 +78,12 @@ const modalFormValidation = (event) => {
     modalDueDateInputIsValid &&
     modalDescriptionInputIsValid
   ) {
+    // do something with the modalFormData
     console.log("Form submitted successfully!");
+  } else {
+    // Display an appropriate message if form submission is blocked due to errors
+    console.log("Form submission failed due to validation errors!");
+    // You can also display an alert or message to the user here
   }
 };
 
