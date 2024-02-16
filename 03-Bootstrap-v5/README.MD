@@ -54,10 +54,10 @@
       href="https://fonts.googleapis.com/css?family=Sofia|Trirong|Actor"
     />
     <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/592084ced4.js"
-      crossorigin="anonymous"
-    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
 
     <!-- Bootstrap icons -->
     <link
@@ -99,7 +99,7 @@
 body {
   font-family: "Trirong", serif;
 }
-section {
+main {
   border: 2px dotted #ff004d;
   padding: 40px 0;
 }
