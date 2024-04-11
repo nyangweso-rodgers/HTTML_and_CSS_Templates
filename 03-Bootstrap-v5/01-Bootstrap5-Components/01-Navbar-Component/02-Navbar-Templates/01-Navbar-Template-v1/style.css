@@ -3,16 +3,8 @@ body {
     line-height: 1.8;
   }
   
-  header {
-    width: 100%;
-    padding: 16px;
-  }
-  
   nav, .dropdown-menu {
     background-color: #192655;
-    /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-      url("") center no-repeat;*/
-    /*font-size: 20px;*/
     font-size: 1.2rem;
     margin-bottom: 0;
     letter-spacing: 2px;
@@ -23,7 +15,6 @@ body {
   .navbar-brand {
     font-size: 2rem;
     padding: 12px;
-    /*font-weight: bold;*/
     font-weight: 400;
   }
   
@@ -36,7 +27,6 @@ body {
   
   .navbar-toggler {
     background-color: #fff;
-    width: 80px;
     border-color: transparent;
   }
   
