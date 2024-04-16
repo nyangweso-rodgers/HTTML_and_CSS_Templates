@@ -18,6 +18,8 @@ h2 {
 
 .btn {
   cursor: pointer;
+  width: 11rem;
+  margin: 2px 0;
 }
 
 footer {
